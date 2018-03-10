@@ -1,0 +1,220 @@
+
+##Isso aqui é uma tentativa bem top de fazer um arquivo puta documentado de diversos pseudo códigos (quem sabe com códigos no meio) de funções que são deveras úteis na vida.
+
+
+Parte 1: Manipulação de números
+	. Manipular dígito à dígito.
+
+Parte 2: Algoritmos e Estrutura de Dados
+	. Criando uma Lista
+	. Adicionando funções de Pilha
+	. Adicionando funções de Fila
+
+Parte 3: Matemática
+	. Contar número de fatores primos de um número
+	. Sequencia de Fibonacci
+	. Conversores código decimal - binário e decimal-hexadex
+
+Parte 4: Strings
+	. Inverter uma string
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 1 @@@@@@@@@@@@@@@@@@@@@@ PARTE 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+.Contar quantos digitos tem um número
+	
+Função conta numeros(inteiro n)
+//Recebe um inteiro
+//Retorna o número de digitos desse inteiro
+//Basicamente a ideia aqui é retonar o resto 10 do número, e dividir ele por 10 depois, e ir fazendo isso até ele 
+//ser 0.
+{
+	inteiro copia = n;
+	inteiro contador = 0;
+	enquanto(copia > 0){
+		inteiro digito = copia%10;
+		contador++;
+		copia = copia/10;
+	}
+	retorne contador;
+}
+//Podemos com isso fazer oque quisermos com tais dígitos, com a variável dígito.
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 2 @@@@@@@@@@@@@@@@@@@@@@ PARTE 2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+.Criando uma lista
+	//eh bem variado, depende muito da linguagem, então farei tanto em Java quanto em Cpp, futuralmente
+	//talvez adicione mais
+		.C++
+
+	{
+		struct no{
+			int valor;
+			no* next;
+		};
+
+		class lista{
+			private:
+			no* head,tail;
+			public:
+			lista(){
+				//constructor
+				head = NULL;
+				tail = NULL;			
+			}
+		}
+	}
+
+
+ .Pilha(usando as listas criadas antes)
+ 		.C++
+
+ 	{
+ 		void push(int valor){
+ 			no* temp = new node();
+ 			temp->valor = valor;
+ 			temp->next = NULL;
+ 			if(head == NULL){
+ 				head = temp;
+ 				tail = temp;
+ 			}
+
+ 			tail->next = temp;
+ 			tail = tail->next;
+ 		}
+
+ 		void pop(){
+ 			no* temp = new node();
+ 			no* tempPrev = new node();
+ 			temp = head;
+ 			if(temp == NULL){
+ 				throw exception("there are no elements to pop");
+ 			}
+ 			while(temp->next != NULL){
+ 				tempPrev = temp;
+ 				temp= temp->next;
+ 			}
+ 			tail = tempPrev;
+ 			tempPrev->next = NULL;
+ 			delete temp;
+ 		}
+ 	}
+
+
+ .Fila(Usando a lista criada antes)
+ 	{
+ 		void dequeue(){
+ 			no* temp = new no();
+ 			temp = head;
+ 			head = head->next;
+ 			delete(temp);
+ 		}
+ 		
+ 		//enqueue é o mesmo que push
+ 	}
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+.Contando o número de fatores primos
+
+	função FatoresPrimos(int n){
+	//recebe um inteiro
+	//retorna o número de fatores primos que ele tem
+
+		int nFatoresPrimos = 0;
+		//enquanto o número for par, seu fator primo é 2.
+		enquanto(n%2==0){
+			nFatoresPrimos++;
+			n=n/2;
+		}
+
+		para(int i =3;i<=sqrt(n);i+=2){
+			//achou um fator, agora checa-se quantas vezes ele repete
+			while(n%i==0){
+				nFatoresPrimos++;
+				n = n/i;
+			}
+		}
+
+		se(n>2){
+			//o número atingiu um número primo
+			nFatoresPrimos++;
+		}
+	}
+
+
+.Sequencia de Fibonacci
+
+	função fibonacci(int n){
+		//dado uma pocisão n, retorna o número que está nessa sequencia
+		int fib[n];
+		for(int i =0;i<n;i++){
+			//base para fib
+			if(i == 0 || i==1){
+				fib[i] == 1;
+			}
+			//resto de fib
+			else{
+				fib[i] = fib[i-1] + fib[i-2];
+			}
+		}
+	}
+
+
+
+.Conversor Decimal-Binário
+		função conversorDecBin(int n){
+			string binario;
+			while( n > 0){
+				if(n%2==0){
+					binario += '0';
+				}
+				else if(n%2!=0){
+					binario += '1';
+				}
+				n=n/2;
+			}
+			return binario;
+		}
+
+.conversor Decimal-Hexadex
+		função conversorDexHex(int n){
+			string hex;
+			map(10, 'A';
+				11, 'B';
+				12, 'C';
+				13, 'D';
+				14, 'E';
+				15, 'F';)
+
+			while(n>0){
+				if(n%16 >= 10){
+					hex += map(n%16);
+				}
+				else if(n%16 < 10){
+					hex += toString(n%16);
+				}
+				n = n/16;
+			}
+		}
+
+
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 4 @@@@@@@@@@@@@@@@@@@@@@ PARTE 4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+	.Inversor de strings
+		função inverteString(string s){
+			for(int i = 0; i<(s.length()/2)-1 ;i++){
+				string temp = '';
+				temp = s[i];
+				s[i] = s[s.length() - i];
+				s[s.length() - i] = temp;
+			}
+		}
