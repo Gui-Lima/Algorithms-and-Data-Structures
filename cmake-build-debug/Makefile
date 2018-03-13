@@ -122,6 +122,33 @@ Algorithms_and_Data_Structures/fast:
 	$(MAKE) -f CMakeFiles\Algorithms_and_Data_Structures.dir\build.make CMakeFiles/Algorithms_and_Data_Structures.dir/build
 .PHONY : Algorithms_and_Data_Structures/fast
 
+avlTree.obj: avlTree.cpp.obj
+
+.PHONY : avlTree.obj
+
+# target to build an object file
+avlTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\Algorithms_and_Data_Structures.dir\build.make CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.obj
+.PHONY : avlTree.cpp.obj
+
+avlTree.i: avlTree.cpp.i
+
+.PHONY : avlTree.i
+
+# target to preprocess a source file
+avlTree.cpp.i:
+	$(MAKE) -f CMakeFiles\Algorithms_and_Data_Structures.dir\build.make CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.i
+.PHONY : avlTree.cpp.i
+
+avlTree.s: avlTree.cpp.s
+
+.PHONY : avlTree.s
+
+# target to generate assembly for a file
+avlTree.cpp.s:
+	$(MAKE) -f CMakeFiles\Algorithms_and_Data_Structures.dir\build.make CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.s
+.PHONY : avlTree.cpp.s
+
 binaryTree.obj: binaryTree.cpp.obj
 
 .PHONY : binaryTree.obj
@@ -212,6 +239,9 @@ help:
 	@echo ... Algorithms_and_Data_Structures
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... avlTree.obj
+	@echo ... avlTree.i
+	@echo ... avlTree.s
 	@echo ... binaryTree.obj
 	@echo ... binaryTree.i
 	@echo ... binaryTree.s

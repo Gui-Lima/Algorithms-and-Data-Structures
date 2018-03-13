@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/guili/CLionProjects/Algorithms and Data Structures/avlTree.cpp
+avlTree.h
+C:/Users/guili/CLionProjects/Algorithms and Data Structures/avlTree.h
+
+C:/Users/guili/CLionProjects/Algorithms and Data Structures/avlTree.h
+iostream
+C:/Users/guili/CLionProjects/Algorithms and Data Structures/iostream
+
 C:/Users/guili/CLionProjects/Algorithms and Data Structures/binaryTree.cpp
 binaryTree.h
 C:/Users/guili/CLionProjects/Algorithms and Data Structures/binaryTree.h
@@ -25,8 +33,6 @@ C:/Users/guili/CLionProjects/Algorithms and Data Structures/iostream
 C:/Users/guili/CLionProjects/Algorithms and Data Structures/main.cpp
 iostream
 -
-lista.h
-C:/Users/guili/CLionProjects/Algorithms and Data Structures/lista.h
-binaryTree.h
-C:/Users/guili/CLionProjects/Algorithms and Data Structures/binaryTree.h
+avlTree.h
+C:/Users/guili/CLionProjects/Algorithms and Data Structures/avlTree.h
 

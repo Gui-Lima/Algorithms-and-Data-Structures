@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/avlTree.cpp">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/avlTree.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
 		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/binaryTree.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>

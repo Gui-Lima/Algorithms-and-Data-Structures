@@ -8,4 +8,6 @@ add_executable(Algorithms_and_Data_Structures
         binaryTree.h
         lista.cpp
         lista.h
-        main.cpp)
+        main.cpp
+        avlTree.cpp
+        avlTree.h)
