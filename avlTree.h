@@ -27,102 +27,96 @@ public:
         return raiz;
     }
 
-    int max(int a, int b){
-        (a > b) ?  a :  b ;
+    avlNode* insert(avlNode* atual, int key){
+        if(raiz == NULL){
+            atual = new avlNode();
+            atual->key = key;
+            atual->esquerda = NULL;
+            atual->direita = NULL;
+            atual->altura = 0;
+            raiz = atual;
+        }
+       else if(atual == NULL){
+            atual = new avlNode();
+            atual->key = key;
+            atual->esquerda = NULL;
+            atual->direita = NULL;
+            atual->altura = 0;
+        }
+
+        else if(atual->key > key){
+            atual->esquerda = insert(atual->esquerda, key);
+            if(altura(atual->esquerda) - altura(atual->direita) >= 2){
+                if(key < atual->esquerda->key){
+                    atual = rightRotation(atual);
+                }
+                else{
+                    atual = rightRightRotation(atual);
+                }
+            }
+        }
+
+        else if(atual->key < key){
+            atual->direita = insert(atual->direita, key);
+            if(altura(atual->direita) - altura(atual->esquerda) >= 2){
+                if(key > atual->direita->key){
+                    atual = leftRotation(atual);
+                }
+                else{
+                    atual = leftLeftRotation(atual);
+                }
+            }
+        }
+
+        atual->altura = max(altura(atual->direita), altura(atual->esquerda)) + 1;
+        return atual;
+
     }
 
     int altura(avlNode* x){
         if(x==NULL){
-            return 0;
+        return 0;
         }
-        else{
-            return x->altura;
-        }
+        return x->altura;
     }
 
-    int balance(avlNode* x){
-        if(x == NULL){
-            return 0;
-        }
-        //this defines if the positive or negative means left or right big
-        return altura(x->esquerda) - altura(x->direita);
+    avlNode* leftRotation(avlNode* &t){
+        avlNode* u = t->direita;
+        t->direita = u->esquerda;
+        u->esquerda = t;
+        t->altura = max(altura(t->esquerda), altura(t->direita))+1;
+        u->altura = max(altura(t->direita), t->altura)+1 ;
+        return u;
     }
 
-    avlNode* newNode(int key){
-        avlNode* temp = new avlNode();
-        temp->key = key;
-        temp->altura = 1;
-        temp->esquerda = NULL;
-        temp->direita = NULL;
-        return temp;
+    avlNode* rightRotation(avlNode* &t){
+        avlNode* u = t->esquerda;
+        t->esquerda = u->direita;
+        u->direita = t;
+        t->altura = max(altura(t->esquerda), altura(t->direita))+1;
+        u->altura = max(altura(u->esquerda), t->altura)+1;
+        return u;
     }
 
-    avlNode* leftRotate(avlNode* x){
-        avlNode* rChild = x->direita;
-        avlNode* rlChild = rChild->esquerda;
-
-        rChild->esquerda = x;
-        x->direita = rlChild;
-
-        x->altura = max(altura(x->direita), altura(x->esquerda)) + 1;
-        rChild->altura = max(altura(rChild->direita), altura(rChild->esquerda)) + 1;
-
-        return rChild;
+    avlNode* leftLeftRotation(avlNode* &t){
+        t->direita = rightRotation(t->direita);
+        return leftRotation(t);
     }
-
-    avlNode* rightRotate(avlNode* x){
-        avlNode* lChild = x->esquerda;
-        avlNode* lrChild = lChild->direita;
-
-        lChild->direita = x;
-        x->esquerda = lrChild;
-
-        x->altura = max(altura(x->direita), altura(x->esquerda));
-        lChild->altura = max(altura(lChild->direita), altura(lChild->esquerda));
+    avlNode* rightRightRotation(avlNode* &t){
+        t->esquerda = leftRotation(t->esquerda);
+        return rightRotation(t);
     }
 
 
-
-    avlNode* insert(avlNode* noAtual, int key){
-        if(noAtual == NULL){
-            return newNode(key);
-        }
-        else if(noAtual->key < key){
-            return insert(noAtual->direita, key);
-        }
-        else if(noAtual->key > key){
-            return insert(noAtual->esquerda, key);
-        }
-
-        noAtual->altura = 1 + max(altura(noAtual->esquerda), altura(noAtual->direita));
-
-        int balanceAtual = balance(noAtual);
-
-        //the four cases
-        if(balanceAtual > 1 && noAtual->esquerda->key > key){
-            return rightRotate(noAtual);
-        }
-        else if(balanceAtual > 1 && noAtual->esquerda->key < key){
-            noAtual->esquerda = leftRotate(noAtual->esquerda);
-            return rightRotate(noAtual);
-        }
-        else if(balanceAtual < -1 && noAtual->direita->key > key){
-            return leftRotate(noAtual);
-        }
-        else if(balanceAtual < -1 && noAtual->direita->key < key){
-            noAtual->direita = rightRotate(noAtual->direita);
-            return leftRotate(noAtual);
-        }
-        return noAtual;
-    }
-    void preOrder(avlNode* percorre){
-        if(percorre == NULL){
+    void preOrder(avlNode* atual){
+        if(atual == NULL){
             return;
         }
 
-        cout << percorre->key << endl;
-        preOrder(percorre->esquerda);
-        preOrder(percorre->direita);
+        cout << atual->key << endl;
+        preOrder(atual->esquerda);
+        preOrder(atual->direita);
+
     }
 };
 
