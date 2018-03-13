@@ -11,7 +11,8 @@ Parte 2: Algoritmos e Estrutura de Dados
 	. Adicionando funções de Fila
 	.Criando uma Avl Tree
 	.Criando uma MinHeap
-
+	.Criando uma Maxheap
+	
 Parte 3: Matemática
 	. Contar número de fatores primos de um número
 	. Sequencia de Fibonacci
@@ -335,6 +336,94 @@ Função conta numeros(inteiro n)
 			};
 		}
 
+	.MaxHeap
+	{
+		class maxHeap{
+	private:
+		int * arr;
+		int capacity;
+		int size;
+	public:	
+		maxHeap(int cap){
+			capacity = cap;
+			size = 0;
+			arr = new int[cap];
+		}
+
+		int length(){
+			return size;
+		}
+
+		int root(){
+			return arr[0];
+		}
+
+		int parent(int i ){
+			return (i-1)/2;
+		}
+
+		int leftChild(int i){
+			return i*2 + 1;
+		}
+
+		int rightChild(int i){
+			return i*2 + 2;
+		}
+
+
+		void insert(int key){
+			if(size == capacity){
+				cout << "FULL" << endl;
+				return;
+			}
+
+			int i = size;
+			arr[i] = key;
+			size++;
+
+			while(i!=0 && arr[i] > arr[parent(i)]){
+				int temp =arr[parent(i)];
+				arr[parent(i)] = arr[i];
+				arr[i] = temp;
+				i = parent(i);
+			}
+		}
+
+		void heapify(int i){
+			int biggest = i;
+			int l = leftChild(i);
+			int r = rightChild(i);
+			if(l < size && arr[l] > arr[i]){
+				biggest = l;
+			}
+			if(r < size && arr[r] > arr[biggest]){
+				biggest = r;
+			}
+			if(biggest != i){
+				int temp = arr[i];
+				arr[i] = arr[biggest];
+				arr[biggest] = temp;
+				heapify(biggest);
+			}
+		}
+
+		int pop(){
+			if(size == 0){
+				return;
+			}
+			if(size == 1){
+				size--;
+				return arr[0];
+			}
+
+			int root = arr[0];
+			arr[0] = arr[size-1];
+			size--;
+			heapify(0);
+			return root;
+		}
+	};
+	}
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
