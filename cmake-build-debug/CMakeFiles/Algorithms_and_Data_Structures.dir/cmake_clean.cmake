@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.obj"
   "CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.obj"
   "CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.obj"
+  "CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.obj"
   "Algorithms_and_Data_Structures.pdb"
   "Algorithms_and_Data_Structures.exe"
   "Algorithms_and_Data_Structures.exe.manifest"

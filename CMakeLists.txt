@@ -10,4 +10,4 @@ add_executable(Algorithms_and_Data_Structures
         lista.h
         main.cpp
         avlTree.cpp
-        avlTree.h)
+        avlTree.h minHeap.cpp minHeap.h)

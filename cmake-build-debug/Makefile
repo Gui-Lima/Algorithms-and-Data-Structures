@@ -230,6 +230,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Algorithms_and_Data_Structures.dir\build.make CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+minHeap.obj: minHeap.cpp.obj
+
+.PHONY : minHeap.obj
+
+# target to build an object file
+minHeap.cpp.obj:
+	$(MAKE) -f CMakeFiles\Algorithms_and_Data_Structures.dir\build.make CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.obj
+.PHONY : minHeap.cpp.obj
+
+minHeap.i: minHeap.cpp.i
+
+.PHONY : minHeap.i
+
+# target to preprocess a source file
+minHeap.cpp.i:
+	$(MAKE) -f CMakeFiles\Algorithms_and_Data_Structures.dir\build.make CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.i
+.PHONY : minHeap.cpp.i
+
+minHeap.s: minHeap.cpp.s
+
+.PHONY : minHeap.s
+
+# target to generate assembly for a file
+minHeap.cpp.s:
+	$(MAKE) -f CMakeFiles\Algorithms_and_Data_Structures.dir\build.make CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.s
+.PHONY : minHeap.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +278,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... minHeap.obj
+	@echo ... minHeap.i
+	@echo ... minHeap.s
 .PHONY : help
 
 

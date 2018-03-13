@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/guili/CLionProjects/Algorithms and Data Structures/binaryTree.cpp" "C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.obj"
   "C:/Users/guili/CLionProjects/Algorithms and Data Structures/lista.cpp" "C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.obj"
   "C:/Users/guili/CLionProjects/Algorithms and Data Structures/main.cpp" "C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.obj"
+  "C:/Users/guili/CLionProjects/Algorithms and Data Structures/minHeap.cpp" "C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -103,6 +103,12 @@
 		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/main.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
+		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/minHeap.cpp">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/minHeap.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
 		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

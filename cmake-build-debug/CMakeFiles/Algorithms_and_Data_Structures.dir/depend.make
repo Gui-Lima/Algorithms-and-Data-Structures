@@ -10,6 +10,9 @@ CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.obj: ../binaryTree.
 CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.obj: ../lista.cpp
 CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.obj: ../lista.h
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.obj: ../avlTree.h
 CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.obj: ../minHeap.h
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.obj: ../minHeap.cpp
+CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.obj: ../minHeap.h
 
