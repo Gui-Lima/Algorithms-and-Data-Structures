@@ -9,7 +9,10 @@ Parte 2: Algoritmos e Estrutura de Dados
 	. Criando uma Lista
 	. Adicionando funções de Pilha
 	. Adicionando funções de Fila
-
+	.Criando uma Avl Tree
+	.Criando uma MinHeap
+	.Criando uma Maxheap
+	
 Parte 3: Matemática
 	. Contar número de fatores primos de um número
 	. Sequencia de Fibonacci
@@ -114,7 +117,303 @@ Função conta numeros(inteiro n)
  		
  		//enqueue é o mesmo que push
  	}
+	
+	
+  .AvlTree
+  	struct avlNode{
+	    int key;
+	    int altura;
+	    avlNode* esquerda;
+	    avlNode* direita;
+	};
 
+
+	class avlTree{
+	private:
+	    avlNode* raiz;
+	public:
+	    avlTree(){
+		raiz = NULL;
+	    }
+
+	    avlNode* root(){
+		return raiz;
+	    }
+
+	    avlNode* insert(avlNode* atual, int key){
+		if(raiz == NULL){
+		    atual = new avlNode();
+		    atual->key = key;
+		    atual->esquerda = NULL;
+		    atual->direita = NULL;
+		    atual->altura = 0;
+		    raiz = atual;
+		}
+	       else if(atual == NULL){
+		    atual = new avlNode();
+		    atual->key = key;
+		    atual->esquerda = NULL;
+		    atual->direita = NULL;
+		    atual->altura = 0;
+		}
+
+		else if(atual->key > key){
+		    atual->esquerda = insert(atual->esquerda, key);
+		    if(altura(atual->esquerda) - altura(atual->direita) >= 2){
+			if(key < atual->esquerda->key){
+			    atual = rightRotation(atual);
+			}
+			else{
+			    atual = rightRightRotation(atual);
+			}
+		    }
+		}
+
+		else if(atual->key < key){
+		    atual->direita = insert(atual->direita, key);
+		    if(altura(atual->direita) - altura(atual->esquerda) >= 2){
+			if(key > atual->direita->key){
+			    atual = leftRotation(atual);
+			}
+			else{
+			    atual = leftLeftRotation(atual);
+			}
+		    }
+		}
+
+		atual->altura = max(altura(atual->direita), altura(atual->esquerda)) + 1;
+		return atual;
+
+	    }
+
+	    int altura(avlNode* x){
+		if(x==NULL){
+		return 0;
+		}
+		return x->altura;
+	    }
+
+	    avlNode* leftRotation(avlNode* &t){
+		avlNode* u = t->direita;
+		t->direita = u->esquerda;
+		u->esquerda = t;
+		t->altura = max(altura(t->esquerda), altura(t->direita))+1;
+		u->altura = max(altura(t->direita), t->altura)+1 ;
+		return u;
+	    }
+
+	    avlNode* rightRotation(avlNode* &t){
+		avlNode* u = t->esquerda;
+		t->esquerda = u->direita;
+		u->direita = t;
+		t->altura = max(altura(t->esquerda), altura(t->direita))+1;
+		u->altura = max(altura(u->esquerda), t->altura)+1;
+		return u;
+	    }
+
+	    avlNode* leftLeftRotation(avlNode* &t){
+		t->direita = rightRotation(t->direita);
+		return leftRotation(t);
+	    }
+	    avlNode* rightRightRotation(avlNode* &t){
+		t->esquerda = leftRotation(t->esquerda);
+		return rightRotation(t);
+	    }
+
+
+	    void preOrder(avlNode* atual){
+		if(atual == NULL){
+		    return;
+		}
+
+		cout << atual->key << endl;
+		preOrder(atual->esquerda);
+		preOrder(atual->direita);
+
+	    }
+	};
+	
+	.MinHeap
+		{
+			class minHeap{
+
+			private:
+				int* arr;
+				int capacity;
+				int size;
+
+			public:
+				minHeap(int cap){
+					size = 0;
+					capacity = cap;
+					arr = new int[cap];
+				}
+
+				int length(){
+					return size;
+				}
+
+				int root(){
+					return arr[0];
+				}
+
+				int parent(int i ){
+					return (i-1)/2;
+				}
+
+				int leftChild(int i){
+					return i*2 + 1;
+				}
+
+				int rightChild(int i){
+					return i*2 + 2;
+				}
+
+				void insert(int key){
+					if(size == capacity){
+						cout << "Full" << endl;
+						return;
+					}
+					int i = size;
+					arr[i] = key;
+					size++;
+
+					while(i!= 0 && arr[i] < arr[parent(i)]){
+						int temp = arr[parent(i)];
+						arr[parent(i)] = arr[i];
+						arr[i] = temp;
+						i=parent(i);
+					}
+				}
+
+
+				void heapify(int i){
+					int smallest = i;
+					int l = leftChild(i);
+					int r = rightChild(i);
+					if(l < size && arr[l] < arr[i]){
+						smallest = l;
+					}
+					if(r < size && arr[r] < arr[smallest]){
+						smallest = r;
+					}
+					if(smallest != i){
+						int temp = arr[i];
+						arr[i] = arr[smallest];
+						arr[smallest] = temp;
+						heapify(smallest);
+					}
+				}
+
+				int pop(){
+					if(size <= 0){
+						cout << "tem oq remover nao" << endl;
+						return -1;
+					}	
+					if(size == 1){
+						size--;
+						return arr[0];
+					}
+
+					int root = arr[0];
+					arr[0] = arr[size -1 ];
+					size--;
+					heapify(0);
+					return root;
+				}
+
+
+			};
+		}
+
+	.MaxHeap
+	{
+		class maxHeap{
+	private:
+		int * arr;
+		int capacity;
+		int size;
+	public:	
+		maxHeap(int cap){
+			capacity = cap;
+			size = 0;
+			arr = new int[cap];
+		}
+
+		int length(){
+			return size;
+		}
+
+		int root(){
+			return arr[0];
+		}
+
+		int parent(int i ){
+			return (i-1)/2;
+		}
+
+		int leftChild(int i){
+			return i*2 + 1;
+		}
+
+		int rightChild(int i){
+			return i*2 + 2;
+		}
+
+
+		void insert(int key){
+			if(size == capacity){
+				cout << "FULL" << endl;
+				return;
+			}
+
+			int i = size;
+			arr[i] = key;
+			size++;
+
+			while(i!=0 && arr[i] > arr[parent(i)]){
+				int temp =arr[parent(i)];
+				arr[parent(i)] = arr[i];
+				arr[i] = temp;
+				i = parent(i);
+			}
+		}
+
+		void heapify(int i){
+			int biggest = i;
+			int l = leftChild(i);
+			int r = rightChild(i);
+			if(l < size && arr[l] > arr[i]){
+				biggest = l;
+			}
+			if(r < size && arr[r] > arr[biggest]){
+				biggest = r;
+			}
+			if(biggest != i){
+				int temp = arr[i];
+				arr[i] = arr[biggest];
+				arr[biggest] = temp;
+				heapify(biggest);
+			}
+		}
+
+		int pop(){
+			if(size == 0){
+				return;
+			}
+			if(size == 1){
+				size--;
+				return arr[0];
+			}
+
+			int root = arr[0];
+			arr[0] = arr[size-1];
+			size--;
+			heapify(0);
+			return root;
+		}
+	};
+	}
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
