@@ -12,13 +12,17 @@ Parte 2: Algoritmos e Estrutura de Dados
 	.Criando uma Avl Tree
 	.Criando uma MinHeap
 	.Criando uma Maxheap
+
+
+Parte 3: Algoritmos de Sorting
+	. MergeSort
 	
-Parte 3: Matemática
+Parte 4: Matemática
 	. Contar número de fatores primos de um número
 	. Sequencia de Fibonacci
 	. Conversores código decimal - binário e decimal-hexadex
 
-Parte 4: Strings
+Parte 5: Strings
 	. Inverter uma string
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 1 @@@@@@@@@@@@@@@@@@@@@@ PARTE 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -417,6 +421,67 @@ Função conta numeros(inteiro n)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+	.MergeSort
+		{
+			void mergeSort(arr[], int left, int right){
+			//quando passar um array que é únitário, n faz nada com ele, acho
+				if(left < right){
+				//o ponto do meio é
+					int mid = l+r/2;
+					mergeSort(arr[],left, mid);
+					mergeSort(arr[], mid+1, right);
+					merge(arr[], left, mid, right);
+				}
+			return;
+			}
+
+
+			void merge(int arr[], int left, int mid, int right){
+
+				int n1 = mid - left + 1;
+				int n2 = right - mid;
+				int leftArr[n1];
+				int rightArr[n2];
+				//fill both arrays
+				for(int i =0;i<n1;i++){
+					leftArr[i] = arr[i+l];
+				}
+				for(int j =0;j<n2;j++){
+					rightArr[j] = arr[l+m+j];
+				}
+
+				int iLeft = 0;
+				int iRight = 0;
+				int iMerge = left;
+				while(iLeft < n1 && iRight < n2){
+					if(leftArr[iLeft] <= rightArr[iRight]){
+						arr[iMerge] = leftArr[iLeft];
+						iLeft++;
+					}
+					else if(rightArr[iRight] < leftArr[iLeft]){
+						arr[iMerge] = rightArr[iRight];
+						iRight++;
+					}
+					iMerge++;
+				}
+
+				while(iLeft < n1){
+					arr[iMerge] = leftArr[iLeft];
+					iLeft++;
+					iMerge++
+				}
+				while(iRight < n2){
+					arr[iMerge] = rightArr[iRight];
+					iRight++
+					iMerge++;
+				}
+				return;
+			}
+		}
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 4 @@@@@@@@@@@@@@@@@@@@@@ PARTE 4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 .Contando o número de fatores primos
 
 	função FatoresPrimos(int n){
@@ -505,7 +570,7 @@ Função conta numeros(inteiro n)
 
 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 4 @@@@@@@@@@@@@@@@@@@@@@ PARTE 4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 5 @@@@@@@@@@@@@@@@@@@@@@ PARTE 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 	.Inversor de strings
