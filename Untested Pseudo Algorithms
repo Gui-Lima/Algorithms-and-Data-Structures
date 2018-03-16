@@ -423,19 +423,6 @@ Função conta numeros(inteiro n)
 
 	.MergeSort
 		{
-			void mergeSort(arr[], int left, int right){
-			//quando passar um array que é únitário, n faz nada com ele, acho
-				if(left < right){
-				//o ponto do meio é
-					int mid = l+r/2;
-					mergeSort(arr[],left, mid);
-					mergeSort(arr[], mid+1, right);
-					merge(arr[], left, mid, right);
-				}
-			return;
-			}
-
-
 			void merge(int arr[], int left, int mid, int right){
 
 				int n1 = mid - left + 1;
@@ -444,10 +431,10 @@ Função conta numeros(inteiro n)
 				int rightArr[n2];
 				//fill both arrays
 				for(int i =0;i<n1;i++){
-					leftArr[i] = arr[i+l];
+					leftArr[i] = arr[i+left];
 				}
 				for(int j =0;j<n2;j++){
-					rightArr[j] = arr[l+m+j];
+					rightArr[j] = arr[left+mid+j];
 				}
 
 				int iLeft = 0;
@@ -468,14 +455,26 @@ Função conta numeros(inteiro n)
 				while(iLeft < n1){
 					arr[iMerge] = leftArr[iLeft];
 					iLeft++;
-					iMerge++
+					iMerge++;
 				}
 				while(iRight < n2){
 					arr[iMerge] = rightArr[iRight];
-					iRight++
+					iRight++;
 					iMerge++;
 				}
 				return;
+			}
+
+			void mergeSort(int arr[], int left, int right){
+			//quando passar um array que é únitário, n faz nada com ele, acho
+				if(left < right){
+				//o ponto do meio é
+					int mid = left+right/2;
+					mergeSort(arr,left, mid);
+					mergeSort(arr, mid+1, right);
+					merge(arr, left, mid, right);
+				}
+			return;
 			}
 		}
 
