@@ -1,3 +1,3 @@
-C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir
-C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir

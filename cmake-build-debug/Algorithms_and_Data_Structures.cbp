@@ -8,108 +8,116 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug"/>
+				<Option working_dir="/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Algorithms_and_Data_Structures">
-				<Option output="C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Algorithms_and_Data_Structures.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms_and_Data_Structures"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Algorithms_and_Data_Structures/fast">
-				<Option output="C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Algorithms_and_Data_Structures.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms_and_Data_Structures/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug"/>
+				<Option working_dir="/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/guili/CLionProjects/Algorithms and Data Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Algorithms_and_Data_Structures">
+				<Option output="/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Algorithms_and_Data_Structures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms_and_Data_Structures"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Algorithms_and_Data_Structures/fast">
+				<Option output="/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Algorithms_and_Data_Structures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms_and_Data_Structures/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/avlTree.cpp">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/avlTree.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/avlTree.h">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/avlTree.h">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/binaryTree.cpp">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/binaryTree.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/binaryTree.h">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/binaryTree.h">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/lista.cpp">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/lista.h">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.h">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/main.cpp">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/minHeap.cpp">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.h">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/minHeap.h">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/main.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="C:/Users/guili/CLionProjects/Algorithms and Data Structures/CMakeLists.txt">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,13 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.obj"
-  "CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.obj"
-  "CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.obj"
-  "CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.obj"
-  "CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.obj"
+  "CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o"
+  "CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o"
+  "CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o"
+  "CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o"
+  "CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o"
+  "CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o"
   "Algorithms_and_Data_Structures.pdb"
-  "Algorithms_and_Data_Structures.exe"
-  "Algorithms_and_Data_Structures.exe.manifest"
-  "libAlgorithms_and_Data_Structures.dll.a"
+  "Algorithms_and_Data_Structures"
 )
 
 # Per-language clean rules from dependency scanning.
