@@ -12,7 +12,7 @@ Parte 2: Algoritmos e Estrutura de Dados
 	.Criando uma Avl Tree
 	.Criando uma MinHeap
 	.Criando uma Maxheap
-
+	.Hashing
 
 Parte 3: Algoritmos de Sorting
 	. MergeSort
@@ -418,6 +418,48 @@ Função conta numeros(inteiro n)
 		}
 	};
 	}
+	
+	
+	.Hashing
+		class iHashing{
+		private:
+			int arr[];
+			int capacity;
+			int size;
+		public:
+			iHashing(int capacit){
+				arr[] = new int(capacit);
+				capacity = capacit;
+				size =0;
+				for(int i =0;i<capacit;i++){
+					arr[i] = ' ';
+				}
+			}
+
+			void add(string name){
+				int i = hash(name);
+				if(arr[i].isEqual(' ')){
+					arr[i] = name;
+				}
+				else{
+					newI = collision(i);
+				}
+			}
+
+			int hash(string name){
+				int index = name.length();
+				return index;		
+			}
+
+			int collision(int collided){
+				int i = collided%3;
+				if(arr[i].isEqual(' ')){
+
+				}
+
+			}
+
+		};
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@ PARTE 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
