@@ -22,6 +22,18 @@ binaryTree.h
 iostream
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/iostream
 
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.cpp
+hashing.h
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.h
+
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.h
+string
+-
+iostream
+-
+stdlib.h
+-
+
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.cpp
 lista.h
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.h
@@ -33,6 +45,8 @@ iostream
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/main.cpp
 iostream
 -
+hashing.h
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.h
 
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp
 minHeap.h

@@ -7,9 +7,13 @@ CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o: ../avlTree.h
 CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o: ../binaryTree.cpp
 CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o: ../binaryTree.h
 
+CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o: ../hashing.cpp
+CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o: ../hashing.h
+
 CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o: ../lista.cpp
 CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o: ../lista.h
 
+CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o: ../hashing.h
 CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o: ../minHeap.cpp
