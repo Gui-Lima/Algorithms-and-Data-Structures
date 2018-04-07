@@ -16,7 +16,7 @@ private:
     int* arr;
     int capacity;
     int size;
-
+    int* sortArr;
 public:
     minHeap(int cap){
         size = 0;
@@ -101,6 +101,19 @@ public:
         for(int i =0;i<size;i++){
             cout << arr[i] << endl;
         }
+    }
+
+    int* Hsort(int * arr, int size){
+        sortArr = new int(size);
+        for(int i =0;i<size;i++) {
+            insert(arr[i]);
+        }
+
+        for(int i = 0;i<size;i++){
+            sortArr[i] = pop();
+            cout << sortArr[i] << endl;
+        }
+        return sortArr;
     }
 };
 

@@ -47,6 +47,8 @@ iostream
 -
 mergeSort.h
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.h
+minHeap.h
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.h
 
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.cpp
 mergeSort.h

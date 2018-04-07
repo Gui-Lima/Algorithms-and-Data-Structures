@@ -1,12 +1,12 @@
 #include <iostream>
 #include "mergeSort.h"
+#include "minHeap.h"
 using namespace std;
 int main(){
 
-    int a[] = {3, 1 , 10 , 5 , 2, 6, 8};
-    mergeSort ms(a, 7);
-    ms.sort();
-    ms.print();
+    minHeap a(7);
+    int arr[] = {4, 2, 1 ,10, 3 ,7, 8};
+    int* b = a.Hsort(arr, 7);
     return 0;
 }
 

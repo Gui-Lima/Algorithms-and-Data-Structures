@@ -15,6 +15,7 @@ CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o: ../lista.h
 
 CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o: ../mergeSort.h
+CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o: ../minHeap.h
 
 CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o: ../mergeSort.cpp
 CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o: ../mergeSort.h
