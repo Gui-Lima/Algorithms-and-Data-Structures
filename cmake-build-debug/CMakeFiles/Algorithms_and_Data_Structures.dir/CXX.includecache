@@ -45,8 +45,8 @@ iostream
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/main.cpp
 iostream
 -
-hashing.h
-/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.h
+quicksort.h
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.h
 
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp
 minHeap.h
@@ -57,4 +57,12 @@ stdio.h
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/stdio.h
 iostream
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/iostream
+
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.cpp
+quicksort.h
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.h
+iostream
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/iostream
+
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.h
 

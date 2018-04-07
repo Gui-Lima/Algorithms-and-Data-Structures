@@ -285,6 +285,33 @@ minHeap.cpp.s:
 	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.s
 .PHONY : minHeap.cpp.s
 
+quicksort.o: quicksort.cpp.o
+
+.PHONY : quicksort.o
+
+# target to build an object file
+quicksort.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o
+.PHONY : quicksort.cpp.o
+
+quicksort.i: quicksort.cpp.i
+
+.PHONY : quicksort.i
+
+# target to preprocess a source file
+quicksort.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.i
+.PHONY : quicksort.cpp.i
+
+quicksort.s: quicksort.cpp.s
+
+.PHONY : quicksort.s
+
+# target to generate assembly for a file
+quicksort.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.s
+.PHONY : quicksort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +339,9 @@ help:
 	@echo "... minHeap.o"
 	@echo "... minHeap.i"
 	@echo "... minHeap.s"
+	@echo "... quicksort.o"
+	@echo "... quicksort.i"
+	@echo "... quicksort.s"
 .PHONY : help
 
 

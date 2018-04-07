@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o"
   "CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o"
   "CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o"
+  "CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o"
   "Algorithms_and_Data_Structures.pdb"
   "Algorithms_and_Data_Structures"
 )
