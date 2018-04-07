@@ -15,7 +15,10 @@ CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o
  /home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.h
 CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o
  /home/guila/CLionProjects/Algorithms-and-Data-Structures/main.cpp
- /home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.h
+ /home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.h
+CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o
+ /home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.cpp
+ /home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.h
 CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o
  /home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp
  /home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.h

@@ -45,8 +45,16 @@ iostream
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/main.cpp
 iostream
 -
-quicksort.h
-/home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.h
+mergeSort.h
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.h
+
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.cpp
+mergeSort.h
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.h
+iostream
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/iostream
+
+/home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.h
 
 /home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp
 minHeap.h

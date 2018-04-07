@@ -258,6 +258,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mergeSort.o: mergeSort.cpp.o
+
+.PHONY : mergeSort.o
+
+# target to build an object file
+mergeSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o
+.PHONY : mergeSort.cpp.o
+
+mergeSort.i: mergeSort.cpp.i
+
+.PHONY : mergeSort.i
+
+# target to preprocess a source file
+mergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.i
+.PHONY : mergeSort.cpp.i
+
+mergeSort.s: mergeSort.cpp.s
+
+.PHONY : mergeSort.s
+
+# target to generate assembly for a file
+mergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.s
+.PHONY : mergeSort.cpp.s
+
 minHeap.o: minHeap.cpp.o
 
 .PHONY : minHeap.o
@@ -336,6 +363,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mergeSort.o"
+	@echo "... mergeSort.i"
+	@echo "... mergeSort.s"
 	@echo "... minHeap.o"
 	@echo "... minHeap.i"
 	@echo "... minHeap.s"

@@ -111,6 +111,12 @@
 		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/main.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.cpp">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
 		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
