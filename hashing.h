@@ -76,6 +76,7 @@ public:
     string remove(string x){
         int toRemove = search(x);
         arr[toRemove] = "Ja teve algo aqui, agora mais nada";
+        cout << "Elemento " << x << " removido" << endl;
         return arr[toRemove];
     }
 
@@ -83,7 +84,7 @@ public:
         int i = hashFunc(x);
 
         if(arr[i].compare(x) == 0){
-            cout << "Found " << x << "on" << i << endl;
+            cout << "Found " << x << " on " << i << endl;
             return i;
         }
 
