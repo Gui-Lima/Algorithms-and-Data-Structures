@@ -10,6 +10,10 @@ mergeSort::mergeSort(int *toBeSorted, int capacit) {
     capacity = capacit;
 }
 
+int* mergeSort::rArr(){
+    return arr;
+}
+
 int* mergeSort::sort() {
     cout << "Hi!, I will do your mergeSort" << endl;
     int i = 0;

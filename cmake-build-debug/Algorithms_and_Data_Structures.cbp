@@ -96,6 +96,9 @@
 		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/binaryTree.h">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/catch.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
 		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
@@ -127,6 +130,9 @@
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
 		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/tests.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
 		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/CMakeLists.txt">

@@ -10,4 +10,4 @@ add_executable(Algorithms_and_Data_Structures
         lista.h
         main.cpp
         avlTree.cpp
-        avlTree.h minHeap.cpp minHeap.h hashing.cpp hashing.h quicksort.cpp quicksort.h mergeSort.cpp mergeSort.h)
+        avlTree.h minHeap.cpp minHeap.h hashing.cpp hashing.h quicksort.cpp quicksort.h mergeSort.cpp mergeSort.h catch.h tests.cpp)

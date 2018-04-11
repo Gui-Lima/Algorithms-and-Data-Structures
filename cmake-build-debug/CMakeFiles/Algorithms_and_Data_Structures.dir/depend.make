@@ -26,3 +26,7 @@ CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o: ../minHeap.h
 CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o: ../quicksort.cpp
 CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o: ../quicksort.h
 
+CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o: ../catch.h
+CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o: ../mergeSort.h
+CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o: ../tests.cpp
+

@@ -26,3 +26,7 @@ CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o
 CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o
  /home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.cpp
  /home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.h
+CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o
+ /home/guila/CLionProjects/Algorithms-and-Data-Structures/catch.h
+ /home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.h
+ /home/guila/CLionProjects/Algorithms-and-Data-Structures/tests.cpp

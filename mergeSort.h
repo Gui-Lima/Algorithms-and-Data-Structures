@@ -13,6 +13,8 @@ private:
 public:
     mergeSort(int * toBeSorted, int capacit);
 
+    int* rArr();
+
     int* sort();
 
     int* split(int initial, int final, int* ar);
