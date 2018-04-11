@@ -4,7 +4,7 @@
 
 #define CATCH_CONFIG_MAIN
 #include "catch.h"
-#include "mergeSort.h"
+#include "Sorting-Algorithms/mergeSort.h"
 #include <iostream>
 #include <array>
 

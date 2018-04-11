@@ -4,10 +4,20 @@ project(Algorithms_and_Data_Structures)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Algorithms_and_Data_Structures
-        binaryTree.cpp
-        binaryTree.h
-        lista.cpp
-        lista.h
+        Data-Structures/binaryTree.cpp
+        Data-Structures/binaryTree.h
+        Data-Structures/lista.cpp
+        Data-Structures/lista.h
         main.cpp
-        avlTree.cpp
-        avlTree.h minHeap.cpp minHeap.h hashing.cpp hashing.h quicksort.cpp quicksort.h mergeSort.cpp mergeSort.h catch.h tests.cpp)
+        Data-Structures/avlTree.cpp
+        Data-Structures/avlTree.h
+        Data-Structures/minHeap.cpp
+        Data-Structures/minHeap.h
+        Data-Structures/hashing.cpp
+        Data-Structures/hashing.h
+        Sorting-Algorithms/quicksort.cpp
+        Sorting-Algorithms/quicksort.h
+        Sorting-Algorithms/mergeSort.cpp
+        Sorting-Algorithms/mergeSort.h
+        catch.h
+        tests.cpp)

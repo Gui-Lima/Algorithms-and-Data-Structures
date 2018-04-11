@@ -1,7 +1,8 @@
 #include <iostream>
-#include "mergeSort.h"
-#include "minHeap.h"
-using namespace std;
+//write here what files fo include
+#include "Sorting-Algorithms/mergeSort.h"
+#include "Data-Structures/minHeap.h"
+
 
 /* int main(){
 

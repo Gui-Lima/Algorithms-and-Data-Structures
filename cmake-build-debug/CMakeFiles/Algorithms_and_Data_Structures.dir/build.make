@@ -57,52 +57,52 @@ include CMakeFiles/Algorithms_and_Data_Structures.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
-CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o: ../binaryTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/binaryTree.cpp
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o: ../Data-Structures/binaryTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/binaryTree.cpp
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/binaryTree.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.i
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/binaryTree.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.i
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/binaryTree.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.s
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/binaryTree.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.s
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o.requires:
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o.requires:
 
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o.requires
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o.requires
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o.provides.build
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o.provides
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o.provides
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o
 
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
-CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o: ../lista.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.cpp
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o: ../Data-Structures/lista.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/lista.cpp
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.i
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/lista.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.i
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.s
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/lista.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.s
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o.requires:
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o.requires:
 
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o.requires
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o.requires
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o.provides.build
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o.provides
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o.provides
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o
 
 
 CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
@@ -129,124 +129,124 @@ CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o.provides: CMakeFiles/Al
 CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o
 
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
-CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o: ../avlTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/avlTree.cpp
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o: ../Data-Structures/avlTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/avlTree.cpp
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/avlTree.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.i
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/avlTree.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.i
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/avlTree.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.s
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/avlTree.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.s
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o.requires:
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o.requires:
 
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o.requires
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o.requires
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o.provides.build
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o.provides
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o.provides
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o
-
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
-CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o: ../minHeap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.i
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.s
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o.requires:
-
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o.requires
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o.provides.build
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o.provides
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o
 
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
-CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o: ../hashing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.cpp
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o: ../Data-Structures/minHeap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/minHeap.cpp
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.i
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/minHeap.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.i
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.s
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/minHeap.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.s
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o.requires:
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o.requires:
 
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o.requires
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o.requires
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o.provides.build
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o.provides
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o.provides
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o
-
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
-CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o: ../quicksort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.cpp
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.i
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.s
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o.requires:
-
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o.requires
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o.provides.build
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o.provides
-
-CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o
 
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
-CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o: ../mergeSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.cpp
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o: ../Data-Structures/hashing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/hashing.cpp
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.i
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/hashing.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.i
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.s
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/hashing.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.s
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o.requires:
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o.requires:
 
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o.requires
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o.requires
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o.provides.build
-.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o.provides
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o.provides
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o
+CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o
+
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o: ../Sorting-Algorithms/quicksort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/quicksort.cpp
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/quicksort.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.i
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/quicksort.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.s
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o.requires:
+
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o.requires
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o.provides
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o
+
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o: ../Sorting-Algorithms/mergeSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o -c /home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/mergeSort.cpp
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/mergeSort.cpp > CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.i
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/mergeSort.cpp -o CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.s
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o.requires:
+
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o.requires
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o.provides: CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o.provides
+
+CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o.provides.build: CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o
 
 
 CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o: CMakeFiles/Algorithms_and_Data_Structures.dir/flags.make
@@ -275,27 +275,27 @@ CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o.provides.build: CMakeF
 
 # Object files for target Algorithms_and_Data_Structures
 Algorithms_and_Data_Structures_OBJECTS = \
-"CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o" \
-"CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o" \
+"CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o" \
+"CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o" \
 "CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o" \
-"CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o" \
-"CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o" \
-"CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o" \
-"CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o" \
-"CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o" \
+"CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o" \
+"CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o" \
+"CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o" \
+"CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o" \
+"CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o" \
 "CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o"
 
 # External object files for target Algorithms_and_Data_Structures
 Algorithms_and_Data_Structures_EXTERNAL_OBJECTS =
 
-Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o
-Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o
+Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o
+Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o
 Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o
-Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o
-Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o
-Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o
-Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o
-Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o
+Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o
+Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o
+Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o
+Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o
+Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o
 Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o
 Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/build.make
 Algorithms_and_Data_Structures: CMakeFiles/Algorithms_and_Data_Structures.dir/link.txt
@@ -307,14 +307,14 @@ CMakeFiles/Algorithms_and_Data_Structures.dir/build: Algorithms_and_Data_Structu
 
 .PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/build
 
-CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o.requires
-CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o.requires
+CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o.requires
+CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o.requires
 CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o.requires
-CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o.requires
-CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o.requires
-CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o.requires
-CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o.requires
-CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o.requires
+CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o.requires
+CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o.requires
+CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o.requires
+CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o.requires
+CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o.requires
 CMakeFiles/Algorithms_and_Data_Structures.dir/requires: CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o.requires
 
 .PHONY : CMakeFiles/Algorithms_and_Data_Structures.dir/requires

@@ -84,52 +84,52 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/avlTree.cpp">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/avlTree.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/avlTree.h">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/avlTree.h">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/binaryTree.cpp">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/binaryTree.cpp">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/binaryTree.h">
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/binaryTree.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/hashing.cpp">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/hashing.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/lista.cpp">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/lista.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/minHeap.cpp">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Data-Structures/minHeap.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/mergeSort.cpp">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/mergeSort.h">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/quicksort.cpp">
+			<Option target="Algorithms_and_Data_Structures"/>
+		</Unit>
+		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/Sorting-Algorithms/quicksort.h">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
 		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/catch.h">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.cpp">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/hashing.h">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.cpp">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/lista.h">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
 		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/main.cpp">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.cpp">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/mergeSort.h">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.cpp">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/minHeap.h">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.cpp">
-			<Option target="Algorithms_and_Data_Structures"/>
-		</Unit>
-		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/quicksort.h">
 			<Option target="Algorithms_and_Data_Structures"/>
 		</Unit>
 		<Unit filename="/home/guila/CLionProjects/Algorithms-and-Data-Structures/tests.cpp">

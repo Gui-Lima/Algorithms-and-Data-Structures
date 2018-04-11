@@ -12,27 +12,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d53a43bc-6138-4249-a91b-8bc0a3bfc0de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/catch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithms_and_Data_Structures" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avlTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avlTree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithms_and_Data_Structures.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithms_and_Data_Structures.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_and_Data_Structures.dir/tests.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashing.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mergeSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mergeSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeSort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minHeap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minHeap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quicksort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quicksort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +60,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+            <state relative-caret-position="210">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -57,60 +72,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mergeSort.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mergeSort.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding>
-                <element signature="e#40#62#0" expanded="true" />
-                <element signature="e#206#244#0" />
-                <element signature="e#206#356#0" />
-                <element signature="e#358#979#0" />
-                <element signature="e#981#2259#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mergeSort.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mergeSort.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quicksort.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quicksort.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding>
-                <element signature="e#40#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minHeap.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minHeap.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
-              <folding>
-                <element signature="e#141#159#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -118,16 +81,13 @@
       <file leaf-file-name="catch.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catch.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="290">
               <caret line="13059" selection-start-line="13059" selection-end-line="13059" />
               <folding>
                 <element signature="e#857#888#0" expanded="true" />
                 <element signature="e#1003#1425#0" expanded="true" />
-                <element signature="e#1736#1789#0" expanded="true" />
-                <element signature="e#1949#2135#0" expanded="true" />
                 <element signature="e#2225#2379#0" expanded="true" />
                 <element signature="e#2559#2591#0" expanded="true" />
-                <element signature="e#2643#2751#0" expanded="true" />
                 <element signature="e#3701#3735#0" expanded="true" />
                 <element signature="e#3775#3809#0" expanded="true" />
                 <element signature="e#3864#3921#0" expanded="true" />
@@ -204,7 +164,6 @@
                 <element signature="e#35811#35831#0" expanded="true" />
                 <element signature="e#36244#36256#0" expanded="true" />
                 <element signature="e#36515#36535#0" expanded="true" />
-                <element signature="e#36804#40483#0" expanded="true" />
                 <element signature="e#40550#40570#0" expanded="true" />
                 <element signature="e#40638#40973#0" expanded="true" />
                 <element signature="e#41810#41840#0" expanded="true" />
@@ -289,10 +248,6 @@
                 <element signature="e#95195#95268#0" expanded="true" />
                 <element signature="e#97106#97134#0" expanded="true" />
                 <element signature="e#97380#104509#0" expanded="true" />
-                <element signature="e#104558#147376#0" expanded="true" />
-                <element signature="e#147439#429536#0" expanded="true" />
-                <element signature="e#429570#430375#0" expanded="true" />
-                <element signature="e#430459#430485#0" expanded="true" />
                 <element signature="e#430655#435838#0" expanded="true" />
                 <element signature="e#440676#445952#0" expanded="true" />
                 <element signature="e#446052#446191#0" expanded="true" />
@@ -301,11 +256,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tests.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#66#84#0" expanded="true" />
               </folding>
@@ -335,14 +290,14 @@
         <option value="$PROJECT_DIR$/hashing.cpp" />
         <option value="$PROJECT_DIR$/utility.h" />
         <option value="$PROJECT_DIR$/utility.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/quicksort.h" />
         <option value="$PROJECT_DIR$/quicksort.cpp" />
         <option value="$PROJECT_DIR$/minHeap.h" />
         <option value="$PROJECT_DIR$/catch.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/mergeSort.h" />
         <option value="$PROJECT_DIR$/mergeSort.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/tests.cpp" />
       </list>
     </option>
@@ -415,12 +370,12 @@
       <workItem from="1523013245672" duration="9562000" />
       <workItem from="1523109844334" duration="12681000" />
       <workItem from="1523358055445" duration="1143000" />
-      <workItem from="1523482233369" duration="3294000" />
+      <workItem from="1523482233369" duration="4191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61634000" />
+    <option name="totallyTimeSpent" value="62531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -428,11 +383,11 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2490392" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48808607" weight="0.32831326" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.3296355" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.48808607" visible="true" weight="0.32831326" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32831326" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51037663" side_tool="true" weight="0.3990964" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49577248" visible="true" weight="0.32831326" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49577248" weight="0.32831326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -474,68 +429,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/binaryTree.h</url>
-          <line>151</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/binaryTree.h</url>
-          <line>99</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/avlTree.h</url>
-          <line>38</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/avlTree.h</url>
-          <line>83</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/avlTree.h</url>
-          <line>92</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/avlTree.h</url>
-          <line>111</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/minHeap.h</url>
-          <line>83</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/hashing.h</url>
-          <line>17</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/hashing.h</url>
-          <line>18</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/hashing.h</url>
-          <line>83</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>7</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/minHeap.h</url>
-          <line>107</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -967,13 +860,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utility.h" />
     <entry file="file://$PROJECT_DIR$/utility.cpp" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hashing.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -992,16 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,16 +924,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catch.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="290">
           <caret line="13059" selection-start-line="13059" selection-end-line="13059" />
           <folding>
             <element signature="e#857#888#0" expanded="true" />
             <element signature="e#1003#1425#0" expanded="true" />
-            <element signature="e#1736#1789#0" expanded="true" />
-            <element signature="e#1949#2135#0" expanded="true" />
             <element signature="e#2225#2379#0" expanded="true" />
             <element signature="e#2559#2591#0" expanded="true" />
-            <element signature="e#2643#2751#0" expanded="true" />
             <element signature="e#3701#3735#0" expanded="true" />
             <element signature="e#3775#3809#0" expanded="true" />
             <element signature="e#3864#3921#0" expanded="true" />
@@ -1134,7 +1007,6 @@
             <element signature="e#35811#35831#0" expanded="true" />
             <element signature="e#36244#36256#0" expanded="true" />
             <element signature="e#36515#36535#0" expanded="true" />
-            <element signature="e#36804#40483#0" expanded="true" />
             <element signature="e#40550#40570#0" expanded="true" />
             <element signature="e#40638#40973#0" expanded="true" />
             <element signature="e#41810#41840#0" expanded="true" />
@@ -1219,10 +1091,6 @@
             <element signature="e#95195#95268#0" expanded="true" />
             <element signature="e#97106#97134#0" expanded="true" />
             <element signature="e#97380#104509#0" expanded="true" />
-            <element signature="e#104558#147376#0" expanded="true" />
-            <element signature="e#147439#429536#0" expanded="true" />
-            <element signature="e#429570#430375#0" expanded="true" />
-            <element signature="e#430459#430485#0" expanded="true" />
             <element signature="e#430655#435838#0" expanded="true" />
             <element signature="e#440676#445952#0" expanded="true" />
             <element signature="e#446052#446191#0" expanded="true" />
@@ -1230,13 +1098,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#66#84#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>

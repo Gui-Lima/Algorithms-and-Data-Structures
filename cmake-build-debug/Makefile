@@ -123,113 +123,194 @@ Algorithms_and_Data_Structures/fast:
 	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/build
 .PHONY : Algorithms_and_Data_Structures/fast
 
-avlTree.o: avlTree.cpp.o
+Data-Structures/avlTree.o: Data-Structures/avlTree.cpp.o
 
-.PHONY : avlTree.o
-
-# target to build an object file
-avlTree.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.o
-.PHONY : avlTree.cpp.o
-
-avlTree.i: avlTree.cpp.i
-
-.PHONY : avlTree.i
-
-# target to preprocess a source file
-avlTree.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.i
-.PHONY : avlTree.cpp.i
-
-avlTree.s: avlTree.cpp.s
-
-.PHONY : avlTree.s
-
-# target to generate assembly for a file
-avlTree.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/avlTree.cpp.s
-.PHONY : avlTree.cpp.s
-
-binaryTree.o: binaryTree.cpp.o
-
-.PHONY : binaryTree.o
+.PHONY : Data-Structures/avlTree.o
 
 # target to build an object file
-binaryTree.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.o
-.PHONY : binaryTree.cpp.o
+Data-Structures/avlTree.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.o
+.PHONY : Data-Structures/avlTree.cpp.o
 
-binaryTree.i: binaryTree.cpp.i
+Data-Structures/avlTree.i: Data-Structures/avlTree.cpp.i
 
-.PHONY : binaryTree.i
+.PHONY : Data-Structures/avlTree.i
 
 # target to preprocess a source file
-binaryTree.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.i
-.PHONY : binaryTree.cpp.i
+Data-Structures/avlTree.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.i
+.PHONY : Data-Structures/avlTree.cpp.i
 
-binaryTree.s: binaryTree.cpp.s
+Data-Structures/avlTree.s: Data-Structures/avlTree.cpp.s
 
-.PHONY : binaryTree.s
+.PHONY : Data-Structures/avlTree.s
 
 # target to generate assembly for a file
-binaryTree.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/binaryTree.cpp.s
-.PHONY : binaryTree.cpp.s
+Data-Structures/avlTree.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/avlTree.cpp.s
+.PHONY : Data-Structures/avlTree.cpp.s
 
-hashing.o: hashing.cpp.o
+Data-Structures/binaryTree.o: Data-Structures/binaryTree.cpp.o
 
-.PHONY : hashing.o
+.PHONY : Data-Structures/binaryTree.o
 
 # target to build an object file
-hashing.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.o
-.PHONY : hashing.cpp.o
+Data-Structures/binaryTree.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.o
+.PHONY : Data-Structures/binaryTree.cpp.o
 
-hashing.i: hashing.cpp.i
+Data-Structures/binaryTree.i: Data-Structures/binaryTree.cpp.i
 
-.PHONY : hashing.i
+.PHONY : Data-Structures/binaryTree.i
 
 # target to preprocess a source file
-hashing.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.i
-.PHONY : hashing.cpp.i
+Data-Structures/binaryTree.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.i
+.PHONY : Data-Structures/binaryTree.cpp.i
 
-hashing.s: hashing.cpp.s
+Data-Structures/binaryTree.s: Data-Structures/binaryTree.cpp.s
 
-.PHONY : hashing.s
+.PHONY : Data-Structures/binaryTree.s
 
 # target to generate assembly for a file
-hashing.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/hashing.cpp.s
-.PHONY : hashing.cpp.s
+Data-Structures/binaryTree.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/binaryTree.cpp.s
+.PHONY : Data-Structures/binaryTree.cpp.s
 
-lista.o: lista.cpp.o
+Data-Structures/hashing.o: Data-Structures/hashing.cpp.o
 
-.PHONY : lista.o
+.PHONY : Data-Structures/hashing.o
 
 # target to build an object file
-lista.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.o
-.PHONY : lista.cpp.o
+Data-Structures/hashing.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.o
+.PHONY : Data-Structures/hashing.cpp.o
 
-lista.i: lista.cpp.i
+Data-Structures/hashing.i: Data-Structures/hashing.cpp.i
 
-.PHONY : lista.i
+.PHONY : Data-Structures/hashing.i
 
 # target to preprocess a source file
-lista.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.i
-.PHONY : lista.cpp.i
+Data-Structures/hashing.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.i
+.PHONY : Data-Structures/hashing.cpp.i
 
-lista.s: lista.cpp.s
+Data-Structures/hashing.s: Data-Structures/hashing.cpp.s
 
-.PHONY : lista.s
+.PHONY : Data-Structures/hashing.s
 
 # target to generate assembly for a file
-lista.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/lista.cpp.s
-.PHONY : lista.cpp.s
+Data-Structures/hashing.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/hashing.cpp.s
+.PHONY : Data-Structures/hashing.cpp.s
+
+Data-Structures/lista.o: Data-Structures/lista.cpp.o
+
+.PHONY : Data-Structures/lista.o
+
+# target to build an object file
+Data-Structures/lista.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.o
+.PHONY : Data-Structures/lista.cpp.o
+
+Data-Structures/lista.i: Data-Structures/lista.cpp.i
+
+.PHONY : Data-Structures/lista.i
+
+# target to preprocess a source file
+Data-Structures/lista.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.i
+.PHONY : Data-Structures/lista.cpp.i
+
+Data-Structures/lista.s: Data-Structures/lista.cpp.s
+
+.PHONY : Data-Structures/lista.s
+
+# target to generate assembly for a file
+Data-Structures/lista.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/lista.cpp.s
+.PHONY : Data-Structures/lista.cpp.s
+
+Data-Structures/minHeap.o: Data-Structures/minHeap.cpp.o
+
+.PHONY : Data-Structures/minHeap.o
+
+# target to build an object file
+Data-Structures/minHeap.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.o
+.PHONY : Data-Structures/minHeap.cpp.o
+
+Data-Structures/minHeap.i: Data-Structures/minHeap.cpp.i
+
+.PHONY : Data-Structures/minHeap.i
+
+# target to preprocess a source file
+Data-Structures/minHeap.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.i
+.PHONY : Data-Structures/minHeap.cpp.i
+
+Data-Structures/minHeap.s: Data-Structures/minHeap.cpp.s
+
+.PHONY : Data-Structures/minHeap.s
+
+# target to generate assembly for a file
+Data-Structures/minHeap.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Data-Structures/minHeap.cpp.s
+.PHONY : Data-Structures/minHeap.cpp.s
+
+Sorting-Algorithms/mergeSort.o: Sorting-Algorithms/mergeSort.cpp.o
+
+.PHONY : Sorting-Algorithms/mergeSort.o
+
+# target to build an object file
+Sorting-Algorithms/mergeSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.o
+.PHONY : Sorting-Algorithms/mergeSort.cpp.o
+
+Sorting-Algorithms/mergeSort.i: Sorting-Algorithms/mergeSort.cpp.i
+
+.PHONY : Sorting-Algorithms/mergeSort.i
+
+# target to preprocess a source file
+Sorting-Algorithms/mergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.i
+.PHONY : Sorting-Algorithms/mergeSort.cpp.i
+
+Sorting-Algorithms/mergeSort.s: Sorting-Algorithms/mergeSort.cpp.s
+
+.PHONY : Sorting-Algorithms/mergeSort.s
+
+# target to generate assembly for a file
+Sorting-Algorithms/mergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/mergeSort.cpp.s
+.PHONY : Sorting-Algorithms/mergeSort.cpp.s
+
+Sorting-Algorithms/quicksort.o: Sorting-Algorithms/quicksort.cpp.o
+
+.PHONY : Sorting-Algorithms/quicksort.o
+
+# target to build an object file
+Sorting-Algorithms/quicksort.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.o
+.PHONY : Sorting-Algorithms/quicksort.cpp.o
+
+Sorting-Algorithms/quicksort.i: Sorting-Algorithms/quicksort.cpp.i
+
+.PHONY : Sorting-Algorithms/quicksort.i
+
+# target to preprocess a source file
+Sorting-Algorithms/quicksort.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.i
+.PHONY : Sorting-Algorithms/quicksort.cpp.i
+
+Sorting-Algorithms/quicksort.s: Sorting-Algorithms/quicksort.cpp.s
+
+.PHONY : Sorting-Algorithms/quicksort.s
+
+# target to generate assembly for a file
+Sorting-Algorithms/quicksort.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/Sorting-Algorithms/quicksort.cpp.s
+.PHONY : Sorting-Algorithms/quicksort.cpp.s
 
 main.o: main.cpp.o
 
@@ -257,87 +338,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-mergeSort.o: mergeSort.cpp.o
-
-.PHONY : mergeSort.o
-
-# target to build an object file
-mergeSort.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.o
-.PHONY : mergeSort.cpp.o
-
-mergeSort.i: mergeSort.cpp.i
-
-.PHONY : mergeSort.i
-
-# target to preprocess a source file
-mergeSort.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.i
-.PHONY : mergeSort.cpp.i
-
-mergeSort.s: mergeSort.cpp.s
-
-.PHONY : mergeSort.s
-
-# target to generate assembly for a file
-mergeSort.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/mergeSort.cpp.s
-.PHONY : mergeSort.cpp.s
-
-minHeap.o: minHeap.cpp.o
-
-.PHONY : minHeap.o
-
-# target to build an object file
-minHeap.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.o
-.PHONY : minHeap.cpp.o
-
-minHeap.i: minHeap.cpp.i
-
-.PHONY : minHeap.i
-
-# target to preprocess a source file
-minHeap.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.i
-.PHONY : minHeap.cpp.i
-
-minHeap.s: minHeap.cpp.s
-
-.PHONY : minHeap.s
-
-# target to generate assembly for a file
-minHeap.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/minHeap.cpp.s
-.PHONY : minHeap.cpp.s
-
-quicksort.o: quicksort.cpp.o
-
-.PHONY : quicksort.o
-
-# target to build an object file
-quicksort.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.o
-.PHONY : quicksort.cpp.o
-
-quicksort.i: quicksort.cpp.i
-
-.PHONY : quicksort.i
-
-# target to preprocess a source file
-quicksort.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.i
-.PHONY : quicksort.cpp.i
-
-quicksort.s: quicksort.cpp.s
-
-.PHONY : quicksort.s
-
-# target to generate assembly for a file
-quicksort.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms_and_Data_Structures.dir/build.make CMakeFiles/Algorithms_and_Data_Structures.dir/quicksort.cpp.s
-.PHONY : quicksort.cpp.s
 
 tests.o: tests.cpp.o
 
@@ -375,30 +375,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Algorithms_and_Data_Structures"
-	@echo "... avlTree.o"
-	@echo "... avlTree.i"
-	@echo "... avlTree.s"
-	@echo "... binaryTree.o"
-	@echo "... binaryTree.i"
-	@echo "... binaryTree.s"
-	@echo "... hashing.o"
-	@echo "... hashing.i"
-	@echo "... hashing.s"
-	@echo "... lista.o"
-	@echo "... lista.i"
-	@echo "... lista.s"
+	@echo "... Data-Structures/avlTree.o"
+	@echo "... Data-Structures/avlTree.i"
+	@echo "... Data-Structures/avlTree.s"
+	@echo "... Data-Structures/binaryTree.o"
+	@echo "... Data-Structures/binaryTree.i"
+	@echo "... Data-Structures/binaryTree.s"
+	@echo "... Data-Structures/hashing.o"
+	@echo "... Data-Structures/hashing.i"
+	@echo "... Data-Structures/hashing.s"
+	@echo "... Data-Structures/lista.o"
+	@echo "... Data-Structures/lista.i"
+	@echo "... Data-Structures/lista.s"
+	@echo "... Data-Structures/minHeap.o"
+	@echo "... Data-Structures/minHeap.i"
+	@echo "... Data-Structures/minHeap.s"
+	@echo "... Sorting-Algorithms/mergeSort.o"
+	@echo "... Sorting-Algorithms/mergeSort.i"
+	@echo "... Sorting-Algorithms/mergeSort.s"
+	@echo "... Sorting-Algorithms/quicksort.o"
+	@echo "... Sorting-Algorithms/quicksort.i"
+	@echo "... Sorting-Algorithms/quicksort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mergeSort.o"
-	@echo "... mergeSort.i"
-	@echo "... mergeSort.s"
-	@echo "... minHeap.o"
-	@echo "... minHeap.i"
-	@echo "... minHeap.s"
-	@echo "... quicksort.o"
-	@echo "... quicksort.i"
-	@echo "... quicksort.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"
