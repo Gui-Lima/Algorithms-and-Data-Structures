@@ -1,4 +1,0 @@
-/home/guila/Desktop/cLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/guila/CLionProjects/Algorithms-and-Data-Structures
--- Configuring done
--- Generating done
--- Build files have been written to: /home/guila/CLionProjects/Algorithms-and-Data-Structures/cmake-build-debug
