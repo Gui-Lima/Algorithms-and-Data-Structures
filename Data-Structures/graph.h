@@ -15,6 +15,8 @@ public:
     graph(int nNodes);
 
     void addEdge(int i, int j);
+
+    void bfs();
 };
 
 
