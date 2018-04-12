@@ -2,11 +2,10 @@
 // Created by guila on 10/04/18.
 //
 
-#define CATCH_CONFIG_MAIN
-#include "catch.h"
-#include "Sorting-Algorithms/mergeSort.h"
+#define CATCH_CONFIG_RUNNER
+#include "single_include/catch.hpp"
+#include "../Sorting-Algorithms/mergeSort.h"
 #include <iostream>
-#include <array>
 
 
 

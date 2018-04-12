@@ -19,5 +19,7 @@ add_executable(Algorithms_and_Data_Structures
         Sorting-Algorithms/quicksort.h
         Sorting-Algorithms/mergeSort.cpp
         Sorting-Algorithms/mergeSort.h
-        catch.h
-        tests.cpp)
+        Catch2/single_include/catch.hpp
+        Catch2/tests.cpp
+        Data-Structures/graph.cpp
+        Data-Structures/graph.h)
