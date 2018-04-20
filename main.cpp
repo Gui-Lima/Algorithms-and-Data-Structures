@@ -2,15 +2,11 @@
 
 //write here what files fo include
 #include "Sorting-Algorithms/mergeSort.h"
+#include "Sorting-Algorithms/quicksort.h"
 #include "Data-Structures/graph.h"
 
 
- int main(){
-    graph a(10);
-    a.addEdge(1, 3);
-    a.addEdge(2 ,5);
-    a.bfs();
+int main(){
+
+    return 0;
 }
-
-
-

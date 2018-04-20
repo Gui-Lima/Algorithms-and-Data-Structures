@@ -48,3 +48,19 @@ TEST_CASE( "Does not break with exceptional conditions", "[sort]"){
 }
 
 
+/*
+ *
+ * Graph tests cases
+ *
+ */
+
+TEST_CASE("Printing in bfs", "[bfs]"){
+    std::vector<int>* g[10];
+    g[0]->push_back(1);
+    g[0]->push_back(3);
+    g[1]->push_back(1);
+    g[1]->push_back(5);
+    g[1]->push_back(8);
+
+
+}
