@@ -11,8 +11,8 @@ wGraph::wGraph(int tam){
     size = tam;
     g = new int*[size];
     for(int i =0;i<size;i++){
+        g[i] = new int[size];
         for(int j =0;j<size;j++){
-            g[i] = new int[size];
             g[i][j] = INT_MAX;
         }
     }
@@ -35,4 +35,43 @@ void wGraph::print(){
         }
         std::cout << std::endl;
     }
+}
+
+int* wGraph::djkistra(int iNode) {
+    int d[size];
+    bool v[size];
+    for(int i =0;i<size;i++){
+        d[i] = INT_MAX;
+        v[i] = false;
+    }
+    //starting from initialNode
+    d[iNode] = 0;
+    for(int i = 0;i<size-1;i++){
+        int u = minDist(d, v);
+
+        v[u] = true;
+        for(int j =0;j<size;j++){
+            int adj = g[u][j];
+            if(adj!=INT_MAX && !v[j] && d[u] + adj < d[j]){
+                d[j] = d[u] + adj;
+            }
+        }
+
+    }
+    for(int i=0;i<size;i++){
+        std::cout << "minimal distance from " << iNode << " to " << i << " is " << d[i] << std::endl;
+    }
+    return d;
+}
+
+int wGraph::minDist(int *d, bool *v) {
+    int min = INT_MAX;
+    int result;
+    for(int i =0;i<size;i++){
+        if(d[i] < min && !v[i]){
+            min = d[i];
+            result = i;
+        }
+    }
+    return result;
 }

@@ -18,6 +18,9 @@ public:
 
     void print();
 
+    int* djkistra(int iNode=0);
+    //djkistra aux
+    int minDist(int* d, bool* v);
 };
 
 
