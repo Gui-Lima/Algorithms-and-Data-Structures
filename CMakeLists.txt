@@ -22,4 +22,8 @@ add_executable(Algorithms_and_Data_Structures
         Catch2/single_include/catch.hpp
         Catch2/tests.cpp
         Data-Structures/graph.cpp
-        Data-Structures/graph.h Data-Structures/wGraph.cpp Data-Structures/wGraph.h)
+        Data-Structures/graph.h
+        Data-Structures/wGraph.cpp
+        Data-Structures/wGraph.h
+        Data-Structures/disjointSet.cpp
+        Data-Structures/disjointSet.h)
