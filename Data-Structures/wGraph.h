@@ -9,8 +9,23 @@
 class wGraph {
 private:
     int size;
+    int nVert;
     int** g;
+
+
 public:
+
+    struct edge{
+        int src, dest, weight;
+    };
+
+    int getSize();
+
+    int getNVert();
+
+    edge* getEdges(){
+        return e;
+    }
 
     wGraph(int tam=0);
 
@@ -21,6 +36,8 @@ public:
     int* djkistra(int iNode=0);
     //djkistra aux
     int minDist(int* d, bool* v);
+private:
+    edge* e;
 };
 
 

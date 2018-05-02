@@ -8,7 +8,9 @@
 
 
 wGraph::wGraph(int tam){
+    nVert = 0;
     size = tam;
+    e = new edge[size];
     g = new int*[size];
     for(int i =0;i<size;i++){
         g[i] = new int[size];
@@ -22,6 +24,11 @@ wGraph::wGraph(int tam){
 void wGraph::addNode(int i, int j, int weight){
     g[i][j] = weight;
     g[j][i]= weight;
+
+    e[nVert].dest = j;
+    e[nVert].src = i;
+    e[nVert].weight = weight;
+    nVert++;
 }
 
 
@@ -74,4 +81,12 @@ int wGraph::minDist(int *d, bool *v) {
         }
     }
     return result;
+}
+
+int wGraph::getSize() {
+    return size;
+}
+
+int wGraph::getNVert() {
+    return nVert;
 }
