@@ -13,48 +13,48 @@ using namespace std;
 
 class minHeap {
 private:
-    int* arr;
-    int capacity;
-    int size;
-    int* sortArr;
+    long* arr;
+    long capacity;
+    long size;
+    long* sortArr;
 public:
-    minHeap(int cap){
+    minHeap(long cap){
         size = 0;
         capacity = cap;
-        arr = new int[cap];
+        arr = new long[cap];
     }
 
-    int length(){
+    long length(){
         return size;
     }
 
-    int root(){
+    long root(){
         return arr[0];
     }
 
-    int parent(int i ){
+    long parent(long i ){
         return (i-1)/2;
     }
 
-    int leftChild(int i){
+    long leftChild(long i){
         return i*2 + 1;
     }
 
-    int rightChild(int i){
+    long rightChild(long i){
         return i*2 + 2;
     }
 
-    void insert(int key){
+    void insert(long key){
         if(size == capacity){
             cout << "Full" << endl;
             return;
         }
-        int i = size;
+        long i = size;
         arr[i] = key;
         size++;
 
         while(i!= 0 && arr[i] < arr[parent(i)]){
-            int temp = arr[parent(i)];
+            long temp = arr[parent(i)];
             arr[parent(i)] = arr[i];
             arr[i] = temp;
             i=parent(i);
@@ -62,10 +62,10 @@ public:
     }
 
 
-    void heapify(int i){
-        int smallest = i;
-        int l = leftChild(i);
-        int r = rightChild(i);
+    void heapify(long i){
+        long smallest = i;
+        long l = leftChild(i);
+        long r = rightChild(i);
         if(l < size && arr[l] < arr[i]){
             smallest = l;
         }
@@ -73,14 +73,14 @@ public:
             smallest = r;
         }
         if(smallest != i){
-            int temp = arr[i];
+            long temp = arr[i];
             arr[i] = arr[smallest];
             arr[smallest] = temp;
             heapify(smallest);
         }
     }
 
-    int pop(){
+    long pop(){
         if(size <= 0){
             cout << "tem oq remover nao" << endl;
             return -1;
@@ -90,7 +90,7 @@ public:
             return arr[0];
         }
 
-        int root = arr[0];
+        long root = arr[0];
         arr[0] = arr[size -1 ];
         size--;
         heapify(0);
@@ -98,18 +98,18 @@ public:
     }
 
     void print(){
-        for(int i =0;i<size;i++){
+        for(long i =0;i<size;i++){
             cout << arr[i] << endl;
         }
     }
 
-    int* Hsort(int * arr, int size){
-        sortArr = new int(size);
-        for(int i =0;i<size;i++) {
+    long* Hsort(long * arr, long size){
+        sortArr = new long(size);
+        for(long i =0;i<size;i++) {
             insert(arr[i]);
         }
 
-        for(int i = 0;i<size;i++){
+        for(long i = 0;i<size;i++){
             sortArr[i] = pop();
             cout << sortArr[i] << endl;
         }

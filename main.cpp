@@ -1,29 +1,49 @@
 #include <iostream>
 #include "vector"
 //write here what files fo include
-#include "Data-Structures/disjointSet.h"
-#include "Greedy Algorithms/krustal.h"
+
 #include "Data-Structures/wGraph.h"
 using namespace std;
 
-int main(){
-    wGraph g(9);
-    g.addNode(0, 1 ,4);
-    g.addNode(0, 7, 8);
-    g.addNode(1, 2, 8);
-    g.addNode(1, 7, 11);
-    g.addNode(2, 8 ,2);
-    g.addNode(2, 5 ,4);
-    g.addNode(2, 3, 7);
-    g.addNode(3, 4, 9);
-    g.addNode(3, 5, 14);
-    g.addNode(4, 5, 10);
-    g.addNode(5, 6, 2);
-    g.addNode(6, 7, 1);
-    g.addNode(6, 8, 6);
-    g.addNode(7, 8 ,7);
-    krustal k(g);
-    k.mst();
 
+void inputHandler(){
+    long nCases;
+    int count = 0;
+    cin >> nCases;
+    while(nCases--){
+        long nServes;
+        cin >> nServes;
+        long nCables;
+        cin >> nCables;
+        long src;
+        cin >> src;
+        long dest;
+        cin >> dest;
+        wGraph g(nServes, nCables);
+        while(nCables--){
+            long c1;
+            cin >> c1;
+            long c2;
+            cin >> c2;
+            long w;
+            cin >> w;
+            g.addNode(c1, c2 ,w);
+        }
+        long * a = g.djkistra(src);
+        cout << "Case #" << count + 1 << ": ";
+        if(a[dest] < 100000){
+            cout << a[dest] << endl;
+        }
+        else{
+            cout << "unreachable" << endl;
+        }
+        count ++;
+    }
+}
+
+
+
+int main(){
+   inputHandler();
     return 0;
 }

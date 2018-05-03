@@ -26,4 +26,4 @@ add_executable(Algorithms_and_Data_Structures
         Data-Structures/wGraph.cpp
         Data-Structures/wGraph.h
         Data-Structures/disjointSet.cpp
-        Data-Structures/disjointSet.h "Greedy Algorithms/krustal.cpp" "Greedy Algorithms/krustal.h")
+        Data-Structures/disjointSet.h "Greedy Algorithms/krustal.cpp" "Greedy Algorithms/krustal.h" Data-Structures/minHeapStructure.cpp Data-Structures/minHeapStructure.h)
