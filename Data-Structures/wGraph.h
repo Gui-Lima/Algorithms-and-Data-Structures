@@ -4,38 +4,42 @@
 
 #ifndef ALGORITHMS_AND_DATA_STRUCTURES_WGRAPH_H
 #define ALGORITHMS_AND_DATA_STRUCTURES_WGRAPH_H
-#define INT_MAX 32000
+#define INT_MAX 100000
+#include "minHeapStructure.h"
 
 class wGraph {
 private:
-    int size;
-    int nVert;
-    int** g;
-
-
+    long size;
+    long nVert;
+    long ** g;
+    long * d;
+    minHeapStructure *h;
 public:
 
     struct edge{
-        int src, dest, weight;
+        long src, dest, weight;
     };
 
-    int getSize();
+    long getSize();
 
-    int getNVert();
+    long getNVert();
 
     edge* getEdges(){
         return e;
     }
 
-    wGraph(int tam=0);
 
-    void addNode(int i, int j, int weight);
+    wGraph(long tam=0, long nvert = 0);
+
+    void addNode(long i, long j, long weight);
 
     void print();
 
-    int* djkistra(int iNode=0);
+    long * djkistra(long iNode=0);
     //djkistra aux
-    int minDist(int* d, bool* v);
+    long minDist(long * d, bool* v);
+
+    long minDistHeap(bool * v);
 private:
     edge* e;
 };

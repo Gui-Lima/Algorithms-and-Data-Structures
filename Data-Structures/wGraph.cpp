@@ -4,38 +4,45 @@
 
 #include "wGraph.h"
 #include "iostream"
-#define INT_MAX 32000
+#define INT_MAX 100000
 
 
-wGraph::wGraph(int tam){
-    nVert = 0;
+wGraph::wGraph(long tam, long nvert){
+    nVert = nvert;
     size = tam;
-    e = new edge[size];
-    g = new int*[size];
-    for(int i =0;i<size;i++){
-        g[i] = new int[size];
-        for(int j =0;j<size;j++){
+    h = new minHeapStructure(nVert);
+    d = new long[size];
+    //e = new edge[size];
+    g = new long*[size];
+    for(long i =0;i<size;i++){
+        g[i] = new long[size];
+        for(long j =0;j<size;j++){
             g[i][j] = INT_MAX;
         }
     }
 }
 
 
-void wGraph::addNode(int i, int j, int weight){
-    g[i][j] = weight;
-    g[j][i]= weight;
+void wGraph::addNode(long i, long j, long weight){
+    if(g[i][j] > weight){
+        g[i][j] = weight;
+        g[j][i] = weight;
+    }
 
+
+    /*
     e[nVert].dest = j;
     e[nVert].src = i;
     e[nVert].weight = weight;
     nVert++;
+    */
 }
 
 
 void wGraph::print(){
-    for(int i =0;i<size;i++){
+    for(long i =0;i<size;i++){
         std::cout<< i << " esta conectado com :";
-        for(int j=0;j<size;j++){
+        for(long j=0;j<size;j++){
             if(g[i][j] < INT_MAX && g[i][j] > 0){
                 std::cout << j << " com peso ( " << g[i][j] << " ) ";
             }
@@ -44,37 +51,43 @@ void wGraph::print(){
     }
 }
 
-int* wGraph::djkistra(int iNode) {
-    int d[size];
+long* wGraph::djkistra(long iNode) {
     bool v[size];
-    for(int i =0;i<size;i++){
+    for(long i =0;i<size;i++){
         d[i] = INT_MAX;
         v[i] = false;
     }
     //starting from initialNode
     d[iNode] = 0;
-    for(int i = 0;i<size-1;i++){
-        int u = minDist(d, v);
+    h->insert(0, iNode);
+    for(long i = 0;i<size-1;i++){
 
+        long u = minDistHeap(v);
+        if(u == -1){
+            u = iNode;
+        }
         v[u] = true;
-        for(int j =0;j<size;j++){
-            int adj = g[u][j];
+        for(long j =0;j<size;j++){
+            long adj = g[u][j];
             if(adj!=INT_MAX && !v[j] && d[u] + adj < d[j]){
                 d[j] = d[u] + adj;
+                h->insert(d[j], j);
             }
         }
 
     }
-    for(int i=0;i<size;i++){
+    /*
+    for(long i=0;i<size;i++){
         std::cout << "minimal distance from " << iNode << " to " << i << " is " << d[i] << std::endl;
     }
+     */
     return d;
 }
 
-int wGraph::minDist(int *d, bool *v) {
-    int min = INT_MAX;
-    int result;
-    for(int i =0;i<size;i++){
+long wGraph::minDist(long *d, bool *v) {
+    long min = INT_MAX;
+    long result;
+    for(long i =0;i<size;i++){
         if(d[i] < min && !v[i]){
             min = d[i];
             result = i;
@@ -83,10 +96,22 @@ int wGraph::minDist(int *d, bool *v) {
     return result;
 }
 
-int wGraph::getSize() {
+
+
+long wGraph::getSize() {
     return size;
 }
 
-int wGraph::getNVert() {
+long wGraph::getNVert() {
     return nVert;
+}
+
+long wGraph::minDistHeap(bool *v) {
+
+    long min = h->pop();
+    while(v[min] == true){
+        min = h->pop();
+    }
+
+    return min;
 }
