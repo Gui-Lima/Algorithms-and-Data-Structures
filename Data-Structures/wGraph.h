@@ -6,13 +6,15 @@
 #define ALGORITHMS_AND_DATA_STRUCTURES_WGRAPH_H
 #define INT_MAX 100000
 #include "minHeapStructure.h"
-
+#include "vector"
 class wGraph {
 private:
     long size;
     long nVert;
+    long nVertAtual;
     long ** g;
     long * d;
+    std::vector<long> * te;
     minHeapStructure *h;
 public:
 
@@ -34,7 +36,7 @@ public:
     void addNode(long i, long j, long weight);
 
     void print();
-
+    long * newdjkistra(long iNode=0, long final=0);
     long * djkistra(long iNode=0);
     //djkistra aux
     long minDist(long * d, bool* v);

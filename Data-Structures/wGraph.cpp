@@ -2,6 +2,7 @@
 // Created by guila on 23/04/18.
 //
 
+#include <cstring>
 #include "wGraph.h"
 #include "iostream"
 #define INT_MAX 100000
@@ -10,10 +11,12 @@
 wGraph::wGraph(long tam, long nvert){
     nVert = nvert;
     size = tam;
+    nVertAtual = 0;
     h = new minHeapStructure(nVert);
     d = new long[size];
-    //e = new edge[size];
+    e = new edge[nVert];
     g = new long*[size];
+    te = new vector<long>[size];
     for(long i =0;i<size;i++){
         g[i] = new long[size];
         for(long j =0;j<size;j++){
@@ -24,18 +27,26 @@ wGraph::wGraph(long tam, long nvert){
 
 
 void wGraph::addNode(long i, long j, long weight){
-    if(g[i][j] > weight){
+    if(weight == 0){
         g[i][j] = weight;
         g[j][i] = weight;
+        te[i].push_back(j);
+        te[j].push_back(i);
+    }
+    else if(g[i][j] > weight || g[i][j] == 0){
+        g[i][j] = weight;
+        g[j][i] = weight;
+        te[i].push_back(j);
+        te[j].push_back(i);
     }
 
 
-    /*
-    e[nVert].dest = j;
-    e[nVert].src = i;
-    e[nVert].weight = weight;
-    nVert++;
-    */
+
+    e[nVertAtual].dest = j;
+    e[nVertAtual].src = i;
+    e[nVertAtual].weight = weight;
+    nVertAtual++;
+
 }
 
 
@@ -64,23 +75,57 @@ long* wGraph::djkistra(long iNode) {
 
         long u = minDistHeap(v);
         if(u == -1){
-            u = iNode;
+           return d;
         }
         v[u] = true;
-        for(long j =0;j<size;j++){
-            long adj = g[u][j];
-            if(adj!=INT_MAX && !v[j] && d[u] + adj < d[j]){
-                d[j] = d[u] + adj;
-                h->insert(d[j], j);
+
+        for(long j =0;j<te[u].size();j++){
+            long adj = te[u][j];
+            long adjW = g[u][adj];
+            if(!v[adj] && d[u] + adjW < d[adj]){
+                d[adj] = d[u] + adjW;
+                h->insert(d[adj], adj);
             }
         }
 
     }
-    /*
+
     for(long i=0;i<size;i++){
         std::cout << "minimal distance from " << iNode << " to " << i << " is " << d[i] << std::endl;
     }
-     */
+
+    return d;
+}
+long* wGraph::newdjkistra(long iNode, long final) {
+    bool v[size];
+    vector <long> Q;
+    for(long i =0;i<size;i++){
+        d[i] = INT_MAX;
+        v[i] = false;
+        Q.push_back(i);
+    }
+    //starting from initialNode
+    d[iNode] = 0;
+    h->insert(0, iNode);
+    for(long i = 0;i<size-1;i++){
+        long u = minDistHeap(v);
+        if(u == -1){
+            return d;
+        }
+        v[u] = true;
+
+        for(long j =0;j<te[u].size();j++){
+            long adj = te[u][j];
+            long adjW = g[u][adj];
+            if(!v[adj] && d[u] + adjW < d[adj]){
+                d[adj] = d[u] + adjW;
+                h->insert(d[adj], adj);
+            }
+        }
+        if(u==final){
+            return d;
+        }
+    }
     return d;
 }
 
@@ -109,7 +154,7 @@ long wGraph::getNVert() {
 long wGraph::minDistHeap(bool *v) {
 
     long min = h->pop();
-    while(v[min] == true){
+    while(v[min]){
         min = h->pop();
     }
 

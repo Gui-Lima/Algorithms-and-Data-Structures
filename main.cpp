@@ -29,7 +29,8 @@ void inputHandler(){
             cin >> w;
             g.addNode(c1, c2 ,w);
         }
-        long * a = g.djkistra(src);
+
+        long * a = g.newdjkistra(src, dest);
         cout << "Case #" << count + 1 << ": ";
         if(a[dest] < 100000){
             cout << a[dest] << endl;
@@ -38,6 +39,7 @@ void inputHandler(){
             cout << "unreachable" << endl;
         }
         count ++;
+
     }
 }
 
