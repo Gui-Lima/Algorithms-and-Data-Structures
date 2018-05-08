@@ -1,12 +1,11 @@
-//
-// Created by guila on 10/04/18.
-//
 
 #define CATCH_CONFIG_RUNNER
 #include "single_include/catch.hpp"
 #include "../Sorting-Algorithms/mergeSort.h"
 #include "../Data-Structures/wGraph.h"
 #include <iostream>
+#include "fstream"
+#include "string"
 
 
 
@@ -14,6 +13,24 @@
  *  MERGESORT test cases
  *
  */
+
+string openFile(const string &fileName){
+    ifstream myReadFile;
+    string output;
+    myReadFile.open("dijkstraTests.txt");
+    if (myReadFile.is_open()) {
+        while (!myReadFile.eof()) {
+
+
+            myReadFile >> output;
+            cout<<output;
+
+
+        }
+    }
+    myReadFile.close();
+    return output;
+}
 
 TEST_CASE( "Elements are in right order", "[sort]" ) {
     int t1[] = {10 , 12 , 30 , 1 , 4 , 66 , 100, 20, 44, 9, 33, 50, 37,75};
@@ -56,24 +73,9 @@ TEST_CASE( "Does not break with exceptional conditions", "[sort]"){
  */
 
 TEST_CASE("Printing in bfs", "[bfs]"){
-    std::vector<int>* g[10];
-    g[0]->push_back(1);
-    g[0]->push_back(3);
-    g[1]->push_back(1);
-    g[1]->push_back(5);
-    g[1]->push_back(8);
+
 }
 
 TEST_CASE("Djikstra", "[djkistra]"){
-    wGraph g(7);
-    g.addNode(0, 1, 5);
-    g.addNode(0, 2, 7);
-    g.addNode(1, 3, 10);
-    g.addNode(3, 4, 3);
-    g.addNode(2, 4, 1);
-    g.addNode(1, 5 ,2 );
-    g.addNode(4,5,8);
-    g.addNode(3,6,4);
-    g.addNode(5,6,1);
-    g.djkistra();
+    string result = openFile("dijkstraTests.txt");
 }
