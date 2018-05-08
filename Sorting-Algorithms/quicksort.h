@@ -8,14 +8,14 @@
 
 class quicksort {
 private:
-    int* arr;
-    int capacity;
+    long* arr;
+    long capacity;
 public:
-    quicksort(int* toBeSorted, int capacit);
+    quicksort(long* toBeSorted, long capacit);
 
-    int* sort();
+    long* sort();
 
-    int* qsort(int i,int j, int* arr);
+    long* qsort(long i,long j, long* arr);
 
     void print();
 };
