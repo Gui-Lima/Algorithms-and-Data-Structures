@@ -15,63 +15,36 @@ int* mergeSort::rArr(){
 }
 
 int* mergeSort::sort() {
-    cout << "Hi!, I will do your mergeSort" << endl;
     int i = 0;
     int j = capacity - 1;
     return split(i , j, arr);
 }
 
 int* mergeSort::split(int initial, int final, int* arr) {
-    cout << "We are spliting array : ";
-    for(int i = initial;i<=final;i++){
-        cout << arr[i] << " ";
-    }
-    cout << " Into subArrays " << endl;
     if(initial >= final) {
         return arr;
     }
     int mid = initial + (final-initial)/2;
-    for(int i = initial;i<=mid;i++){
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-    cout << " and " << endl;
-    for(int i = mid+1;i<=final;i++){
-        cout << arr[i] << " ";
-    }
-    cout << endl;
+
     split(initial, mid, arr);
     split(mid+1, final, arr);
     merge(initial, mid, final, arr);
 }
 
 int* mergeSort::merge(int initial, int median, int final, int* arr){
-    //we have to make copy arrays
-    cout << "Now we merge subArrays : " << endl;
-    for(int i = initial;i<=median;i++){
-        cout << arr[i] << " ";
-    }
-    cout << " and " << endl;
-    for(int i = median+1;i<=final;i++){
-        cout << arr[i] <<  " ";
-    }
-    cout << endl;
 
     int n1 = median - initial + 1 ;
     int n2 = final - median;
     int left[n1];
     int right[n2];
-    cout << "Auxiliary arrays : " << endl;
+
     for(int i = 0;i<n1;i++){
         left[i] = arr[initial + i];
-        cout << left[i] << " ";
+
     }
-    cout << endl;
     for(int i =0;i<n2;i++){
         right[i] = arr[median+1+i];
-        cout << right[i] << " ";
     }
-    cout << endl;
 
     int i =0;
     int j =0;
@@ -98,11 +71,6 @@ int* mergeSort::merge(int initial, int median, int final, int* arr){
         j++;
         k++;
     }
-    cout << " We formed array ";
-    for(int i = initial;i<=final;i++){
-        cout << arr[i] << " ";
-    }
-    cout << endl;
 }
 
 void mergeSort::print() {
