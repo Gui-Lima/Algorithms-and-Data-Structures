@@ -7,7 +7,7 @@
 
 #include "../Data-Structures/disjointSet.h"
 #include "../Data-Structures/wGraph.h"
-#include "../Sorting-Algorithms/quicksort.h"
+
 
 class krustal {
 private:
@@ -18,12 +18,15 @@ private:
 
 public:
 
+    wGraph getGraph(){
+        return g;
+    }
 
     krustal(wGraph gk);
 
-    void mst();
+    long mst();
 
-    wGraph::edge* quickSortDiferenciado(int initial, int final,wGraph::edge* arr);
+    wGraph::edge* quickSortDiferenciado(long initial, long final,wGraph::edge* arr);
 };
 
 

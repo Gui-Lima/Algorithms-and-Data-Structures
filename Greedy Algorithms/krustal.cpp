@@ -13,19 +13,19 @@ krustal::krustal(wGraph gk) {
 
     //creating graph
     e = g.getEdges();
-    e = quickSortDiferenciado(0, 13, e);
+    e = quickSortDiferenciado(0, g.getNVert()-1, e);
 
 
 }
 
-wGraph::edge *krustal::quickSortDiferenciado(int initial, int final, wGraph::edge *arr) {
+wGraph::edge *krustal::quickSortDiferenciado(long initial, long final, wGraph::edge *arr) {
     if(initial >= final){
         return arr;
     }
 
    wGraph::edge pivot = arr[final];
-    int i=initial-1;
-    for(int j =initial;j<final;j++){
+    long i=initial-1;
+    for(long j =initial;j<final;j++){
         if(arr[j].weight < pivot.weight){
             i++;
             //swap(arr[i], arr[j]);
@@ -44,24 +44,24 @@ wGraph::edge *krustal::quickSortDiferenciado(int initial, int final, wGraph::edg
 
 }
 
-void krustal::mst() {
-    int n = g.getSize()-1;
-    auto result = new wGraph(g.getSize());
-    int ecount = 0;
+long krustal::mst() {
+    long n = g.getSize()-1;
+    auto result = new wGraph(g.getSize(), g.getNVert());
+    long ecount = 0;
     while(n!=0){
         wGraph::edge a = e[ecount];
-        long x = d.find(a.dest)->data;
-        long y = d.find(a.src)->data;
-        //form cycle i guess
+        long t1 = a.src;
+        long t2 = a.dest;
+        long t3 = a.weight;
+        long x = d.find(t1)->data;
+        long y = d.find(t2)->data;
         if(x !=y ){
-            result->addNode(a.src, a.dest, a.weight);
-            ecount++;
-            d.uniao(a.src, a.dest);
+            result->addNode(t1, t2, t3);
+            d.uniao(t1, t2);
             n--;
         }
-        else{
-            ecount++;
-        }
+        ecount++;
     }
-    result->print();
+    return result->soma();
+    //result->print();
 }
