@@ -1,8 +1,4 @@
-//
-// Created by guila on 23/04/18.
-//
 
-#include <cstring>
 #include "wGraph.h"
 #include "iostream"
 #define INT_MAX 100000
@@ -12,6 +8,7 @@ wGraph::wGraph(long tam, long nvert){
     nVert = nvert;
     size = tam;
     nVertAtual = 0;
+    pesoTotal=0;
     h = new minHeapStructure(nVert);
     d = new long[size];
     e = new edge[nVert];
@@ -19,9 +16,6 @@ wGraph::wGraph(long tam, long nvert){
     te = new vector<long>[size];
     for(long i =0;i<size;i++){
         g[i] = new long[size];
-        for(long j =0;j<size;j++){
-            g[i][j] = INT_MAX;
-        }
     }
 }
 
@@ -40,7 +34,7 @@ void wGraph::addNode(long i, long j, long weight){
         te[j].push_back(i);
     }
 
-
+    pesoTotal += weight;
 
     e[nVertAtual].dest = j;
     e[nVertAtual].src = i;
@@ -159,4 +153,8 @@ long wGraph::minDistHeap(bool *v) {
     }
 
     return min;
+}
+
+long wGraph::soma() {
+    return pesoTotal;
 }

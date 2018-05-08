@@ -14,6 +14,7 @@ private:
     long nVertAtual;
     long ** g;
     long * d;
+    long pesoTotal;
     std::vector<long> * te;
     minHeapStructure *h;
 public:
@@ -29,7 +30,7 @@ public:
     edge* getEdges(){
         return e;
     }
-
+    long soma();
 
     wGraph(long tam=0, long nvert = 0);
 
