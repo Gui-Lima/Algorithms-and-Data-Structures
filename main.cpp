@@ -1,19 +1,20 @@
 #include "iostream"
 //write here what files fo include
-#include "vector"
-#include "Dynamic-Programming/knapsack.h"
+#include "Data-Structures/graph.h"
+
+
 using namespace std;
 
 int main() {
-
-    long val[] = {60, 100, 120};
-    long wt[] = {10, 20, 30};
-    long  W = 50;
-    long valsize = 3;
-    knapsack a(val,valsize, wt, W);
-    cout << a.simpleKnap();
+    graph g(4);
+    g.addEdge(0, 1);
+    g.addEdge(0, 2);
+    g.addEdge(2, 3);
+    g.addEdge(1,2);
+    g.print();
     return 0;
 }
+
 
 
 

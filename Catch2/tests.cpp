@@ -1,5 +1,6 @@
 
 #define CATCH_CONFIG_RUNNER
+//#define CATCH_CONFIG_MAIN
 #include "single_include/catch.hpp"
 #include "../Sorting-Algorithms/mergeSort.h"
 #include "../Data-Structures/wGraph.h"
@@ -7,7 +8,7 @@
 #include "fstream"
 #include "string"
 
-
+using namespace std;
 
 /*
  *  MERGESORT test cases
@@ -17,15 +18,15 @@
 string openFile(const string &fileName){
     ifstream myReadFile;
     string output;
-    myReadFile.open("dijkstraTests.txt");
+    string testFile = "../Test/";
+    testFile += fileName;
+    myReadFile.open(testFile);
     if (myReadFile.is_open()) {
         while (!myReadFile.eof()) {
 
-
-            myReadFile >> output;
+            getline(myReadFile, output);
+            output += '\n';
             cout<<output;
-
-
         }
     }
     myReadFile.close();
