@@ -30,4 +30,10 @@ add_executable(Algorithms_and_Data_Structures
         "Greedy Algorithms/krustal.cpp"
         "Greedy Algorithms/krustal.h"
         Data-Structures/minHeapStructure.cpp
-        Data-Structures/minHeapStructure.h Dynamic-Programming/knapsack.cpp Dynamic-Programming/knapsack.h utility.cpp utility.h)
+        Data-Structures/minHeapStructure.h
+        Dynamic-Programming/knapsack.cpp
+        Dynamic-Programming/knapsack.h
+        utility.cpp
+        utility.h
+        Dynamic-Programming/coinChange.cpp
+        Dynamic-Programming/coinChange.h)
