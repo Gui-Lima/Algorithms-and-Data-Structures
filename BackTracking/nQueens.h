@@ -7,7 +7,17 @@
 
 
 class nQueens {
+private:
+    int** board;
+    int size;
 
+public:
+    nQueens(int size);
+
+    void solve1QueenPlaced(int i, int j);
+    //this calls
+    bool sqpUtil(int col, int i, int j, int& contador, int* linha);
+    bool isSafe(int row, int col, int* sol);
 };
 
 

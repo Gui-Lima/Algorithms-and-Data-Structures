@@ -1,21 +1,27 @@
 #include "iostream"
 //write here what files fo include
-#include "Dynamic-Programming/stringProblems.h"
+#include "BackTracking/nQueens.h"
 #include "string"
 
 using namespace std;
 
-
-
 void inputHandler(){
-    string s1;
-    while(getline(cin, s1)){
-        string s2;
-        getline(cin, s2);
-        stringProblems sP(s1, s2);
-        cout << sP.longestCommonSubSeq() << endl;
-    }
+    int nCases;
+    cin >>  nCases;
+    while(nCases--){
+        int i;
+        cin >> i;
+        int j;
+        cin >> j;
+        printf("SOLN       COLUMN\n");
+        printf(" #      1 2 3 4 5 6 7 8\n\n");
+        nQueens nq(8);
+        nq.solve1QueenPlaced(i,j);
+        if (nCases) {
+            printf("\n");
+        }
 
+    }
 }
 
 int main() {

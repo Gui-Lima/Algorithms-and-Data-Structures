@@ -36,4 +36,4 @@ add_executable(Algorithms_and_Data_Structures
         utility.cpp
         utility.h
         Dynamic-Programming/coinChange.cpp
-        Dynamic-Programming/coinChange.h Dynamic-Programming/stringProblems.cpp Dynamic-Programming/stringProblems.h)
+        Dynamic-Programming/coinChange.h Dynamic-Programming/stringProblems.cpp Dynamic-Programming/stringProblems.h BackTracking/nQueens.cpp BackTracking/nQueens.h)
