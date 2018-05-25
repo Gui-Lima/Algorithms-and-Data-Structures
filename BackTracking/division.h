@@ -1,0 +1,14 @@
+//
+// Created by guila on 25/05/18.
+//
+
+#ifndef ALGORITHMS_AND_DATA_STRUCTURES_DIVISION_H
+#define ALGORITHMS_AND_DATA_STRUCTURES_DIVISION_H
+
+
+class division {
+
+};
+
+
+#endif //ALGORITHMS_AND_DATA_STRUCTURES_DIVISION_H
