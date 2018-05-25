@@ -7,7 +7,12 @@
 
 
 class division {
+private:
+    int divRes;
+public:
+    division(int n);
 
+    bool fiveDigitDivision(long x, long y);
 };
 
 
