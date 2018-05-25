@@ -15,3 +15,7 @@ long utility::max(long a, long b) {
     if(b>a){return b;}
     return 0;
 }
+
+bool utility::isEven(long a) {
+    return a % 2 == 0;
+}

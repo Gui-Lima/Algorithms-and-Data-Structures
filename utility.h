@@ -11,6 +11,8 @@ public:
     void swap(long &a, long &b);
 
     long max(long a, long b);
+
+    bool isEven(long a);
 };
 
 
