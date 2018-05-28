@@ -2,8 +2,8 @@
 #define CATCH_CONFIG_RUNNER
 //#define CATCH_CONFIG_MAIN
 #include "single_include/catch.hpp"
-#include "../Sorting-Algorithms/mergeSort.h"
-#include "../Data-Structures/wGraph.h"
+#include "../Sorting-Algorithms/MergeSort/mergeSort.h"
+#include "../Data-Structures/Graph/Weighted-Graph/wGraph.h"
 #include <iostream>
 #include "fstream"
 #include "string"

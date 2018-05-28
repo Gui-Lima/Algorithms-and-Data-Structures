@@ -5,7 +5,7 @@
 #ifndef ALGORITHMS_AND_DATA_STRUCTURES_WGRAPH_H
 #define ALGORITHMS_AND_DATA_STRUCTURES_WGRAPH_H
 #define INT_MAX 100000
-#include "minHeapStructure.h"
+#include "../../Heap/Modified/minHeapStructure.h"
 #include "vector"
 class wGraph {
 private:

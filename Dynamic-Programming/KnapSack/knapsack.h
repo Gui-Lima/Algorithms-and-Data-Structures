@@ -5,7 +5,7 @@
 #ifndef ALGORITHMS_AND_DATA_STRUCTURES_KNAPSACK_H
 #define ALGORITHMS_AND_DATA_STRUCTURES_KNAPSACK_H
 
-#include "../utility.h"
+#include "../../utility.h"
 
 class knapsack {
 private:

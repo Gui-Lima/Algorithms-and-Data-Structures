@@ -5,8 +5,8 @@
 #ifndef ALGORITHMS_AND_DATA_STRUCTURES_KRUSTAL_H
 #define ALGORITHMS_AND_DATA_STRUCTURES_KRUSTAL_H
 
-#include "../Data-Structures/disjointSet.h"
-#include "../Data-Structures/wGraph.h"
+#include "../../../Data-Structures/DisjointSet/disjointSet.h"
+#include "../../../Data-Structures/Graph/Weighted-Graph/wGraph.h"
 
 
 class krustal {
