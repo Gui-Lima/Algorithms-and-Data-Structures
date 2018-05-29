@@ -1,12 +1,15 @@
-### GRAPHS
+# GRAPHS
 A graph is a collection of nodes(x, y , z ,w...) and edges (x,y), (y,z). An edge (x,y) means x is connected with y.
 	
 ## Properties
 A graph can have some unique things or not. The most common ones are:
-	* Directed Graph - Means (x,y) is different from (y,x).
-	* Loops - If a graph has Loops, there can be edges like (x,x).
-	* Fully connected - Means there is a path to every node from every node.
-	* Weight - Means associated to an edge, there is a number meaning how much it costs to go trough that edge.
+* Directed Graph - Means (x,y) is different from (y,x).
+
+* Loops - If a graph has Loops, there can be edges like (x,x).
+
+* Fully connected - Means there is a path to every node from every node.
+
+* Weight - Means associated to an edge, there is a number meaning how much it costs to go trough that edge.
 
 There are many many more.
 There is some nomenclature to it also, but the simples ones you can get from context and the harder ones are to hard for me to put here.
@@ -20,13 +23,13 @@ Graphs can widely used in real life for many many things, any network, virtual o
 
 ## Common Topics
 Topis that make sense when talking about graphs are:
-	* Dijkstra Algorithm
-	* BFS and DFS
-	* Graph Coloring
-	* Minimum Spamming Tree
-	* Shortest Path
-	* Optimal path
+* Dijkstra Algorithm
+* BFS and DFS
+* Graph Coloring
+* Minimum Spamming Tree
+* Shortest Path
+* Optimal path
 
 ## Recommended Reading
 Some books or sites:
-	* Geeks for Geeks : https://www.geeksforgeeks.org/graph-and-its-representations/
+* Geeks for Geeks : https://www.geeksforgeeks.org/graph-and-its-representations/
