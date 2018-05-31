@@ -12,7 +12,7 @@ A graph can have some unique things or not. The most common ones are:
 * Weight - Means associated to an edge, there is a number meaning how much it costs to go trough that edge.
 
 There are many many more.
-There is some nomenclature to it also, but the simples ones you can get from context and the harder ones are to hard for me to put here.
+There is some nomenclature to it also, but the simples ones you can get from context and the harder ones are too hard for me to put here.
 
 ## Representation
 There are two main graphs representations in programming: Weighted and non Weighted. A Weighted graph has a cost when going from one node to another. A non weighted has no such cost.

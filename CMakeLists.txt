@@ -42,4 +42,4 @@ add_executable(Algorithms_and_Data_Structures
         Backtrack/NQueen/nQueens.cpp
         Backtrack/NQueen/nQueens.h
         Backtrack/5-digit-division/division.cpp
-        Backtrack/5-digit-division/division.h)
+        Backtrack/5-digit-division/division.h Greedy-Algorithms/Djkistra/Djikstra.cpp Greedy-Algorithms/Djkistra/Djikstra.h)
