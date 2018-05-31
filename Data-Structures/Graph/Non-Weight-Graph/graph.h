@@ -12,9 +12,7 @@ private:
     std::vector<int>*  g;
     int numberOfNodes;
 public:
-    graph(int nNodes=0);
-
-    void reCreate(int n);
+    explicit graph(int nNodes=0);
 
     int size();
 
