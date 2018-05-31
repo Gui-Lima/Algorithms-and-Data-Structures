@@ -27,8 +27,8 @@ add_executable(Algorithms_and_Data_Structures
         Data-Structures/Graph/Weighted-Graph/wGraph.h
         Data-Structures/DisjointSet/disjointSet.cpp
         Data-Structures/DisjointSet/disjointSet.h
-        Greedy-Algorithms/Minimum-Spamming-Tree/Krustal/krustal.cpp
-        Greedy-Algorithms/Minimum-Spamming-Tree/Krustal/krustal.h
+        Greedy-Algorithms/Minimum-Spamming-Tree/Kruskal/kruskal.cpp
+        Greedy-Algorithms/Minimum-Spamming-Tree/Kruskal/kruskal.h
         Data-Structures/Heap/Modified/minHeapStructure.cpp
         Data-Structures/Heap/Modified/minHeapStructure.h
         Dynamic-Programming/KnapSack/knapsack.cpp
