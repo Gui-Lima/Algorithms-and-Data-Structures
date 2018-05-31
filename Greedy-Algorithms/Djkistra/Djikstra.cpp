@@ -40,7 +40,8 @@ long *Djikstra::minimumDistance(long src, long dest) {
 
 
     }
-    cout << "Distance from " << src << " to " << dest << " is " << distances[dest] << endl;
+    if(dest != -1)
+      cout << "Distance from " << src << " to " << dest << " is " << distances[dest] << endl;
     return distances;
 }
 
