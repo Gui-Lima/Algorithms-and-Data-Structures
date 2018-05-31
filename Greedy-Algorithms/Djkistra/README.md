@@ -3,7 +3,6 @@ Dijkstra Algorithm is a very famous Greedy Algorithm made by a Computer Scientis
 
 ## What is does?
 It calculates the minimal cost path from one node to another in a weighted graph.
-![DIJKSTRA](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif)
 
 ## The Algorithm
 How Dijkstra works can be confusing at first, but it's not really. It's better if you can do the algorithm by hand, so you understand how it fully works.
@@ -22,7 +21,6 @@ Then, you return the dist array.
 
 This is it. This last sentence was pretty confusing, but if you do it by hand it will make sense.
 The only catch of this algorithm is to pick the node that have to minimum distance we can make a full search in the graph, or we can implement a Heap to be faster.
-
 
 
 
