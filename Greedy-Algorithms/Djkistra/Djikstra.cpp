@@ -1,101 +1,53 @@
-//
+//define
 // Created by guila on 29/05/18.
 //
 
+#include <list>
 #include "Djikstra.h"
+#define INFINITE 30000
 
-/*
- *
- *
- *
+Djikstra::Djikstra(wGraph g, long numberOfVertices) {
+    this->g = g;
+    h = new minHeapStructure(numberOfVertices);
+    distances = new long[g.getSize()];
+}
 
-long* wGraph::djkistra(long iNode) {
-    bool v[size];
-    for(long i =0;i<size;i++){
-        d[i] = INT_MAX;
-        v[i] = false;
+long *Djikstra::minimumDistance(long src, long dest) {
+
+    bool distancesanceAlredyKnow[g.getSize()];
+
+    for(int i =0;i<g.getSize();i++){
+        distances[i] = INFINITE;
+        distancesanceAlredyKnow[i] = false;
     }
-    //starting from initialNode
-    d[iNode] = 0;
-    h->insert(0, iNode);
-    for(long i = 0;i<size-1;i++){
+    distances[src] = 0;
+    h->insert(0, src);
 
-        long u = minDistHeap(v);
-        if(u == -1){
-            return d;
+    for(int i =0;i<g.getSize();i++){
+        long minDistNonVisitedEdge = minimumTemporaryDist(distancesanceAlredyKnow);
+        distancesanceAlredyKnow[minDistNonVisitedEdge] = true;
+        if(distancesanceAlredyKnow[minDistNonVisitedEdge] == dest){
+            cout << "Distance from " << src << " to " << dest << " is " << distances[dest] << endl;
+            return distances;
         }
-        v[u] = true;
 
-        for(long j =0;j<te[u].size();j++){
-            long adj = te[u][j];
-            long adjW = g[u][adj];
-            if(!v[adj] && d[u] + adjW < d[adj]){
-                d[adj] = d[u] + adjW;
-                h->insert(d[adj], adj);
+        for(int j =0;j<g.getSize();j++){
+            if( g.getGraph()[minDistNonVisitedEdge][j] !=0 && !distancesanceAlredyKnow[j] && distances[j] > distances[minDistNonVisitedEdge] + g.getGraph()[minDistNonVisitedEdge][j]){
+                distances[j] = distances[minDistNonVisitedEdge] + g.getGraph()[minDistNonVisitedEdge][j];
+                h->insert(distances[j], j);
             }
         }
 
-    }
 
-    for(long i=0;i<size;i++){
-        std::cout << "minimal distance from " << iNode << " to " << i << " is " << d[i] << std::endl;
     }
-
-    return d;
-}
-long* wGraph::newdjkistra(long iNode, long final) {
-    bool v[size];
-    vector <long> Q;
-    for(long i =0;i<size;i++){
-        d[i] = INT_MAX;
-        v[i] = false;
-        Q.push_back(i);
-    }
-    //starting from initialNode
-    d[iNode] = 0;
-    h->insert(0, iNode);
-    for(long i = 0;i<size-1;i++){
-        long u = minDistHeap(v);
-        if(u == -1){
-            return d;
-        }
-        v[u] = true;
-
-        for(long j =0;j<te[u].size();j++){
-            long adj = te[u][j];
-            long adjW = g[u][adj];
-            if(!v[adj] && d[u] + adjW < d[adj]){
-                d[adj] = d[u] + adjW;
-                h->insert(d[adj], adj);
-            }
-        }
-        if(u==final){
-            return d;
-        }
-    }
-    return d;
+    cout << "Distance from " << src << " to " << dest << " is " << distances[dest] << endl;
+    return distances;
 }
 
-long wGraph::minDist(long *d, bool *v) {
-    long min = INT_MAX;
-    long result;
-    for(long i =0;i<size;i++){
-        if(d[i] < min && !v[i]){
-            min = d[i];
-            result = i;
-        }
-    }
-    return result;
-}
-
-long wGraph::minDistHeap(bool *v) {
-
+long Djikstra::minimumTemporaryDist(const bool *visited) {
     long min = h->pop();
-    while(v[min]){
+    while(visited[min]){
         min = h->pop();
     }
-
     return min;
 }
-
-*/

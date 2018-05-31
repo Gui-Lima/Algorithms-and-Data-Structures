@@ -3,20 +3,23 @@
 #include "Sorting-Algorithms/MergeSort/mergeSort.h"
 #include "Data-Structures/Graph/Weighted-Graph/wGraph.h"
 #include "Data-Structures/Graph/Non-Weight-Graph/graph.h"
+#include "Greedy-Algorithms/Djkistra/Djikstra.h"
 
 using namespace std;
 
 
 
 int main() {
-    graph g(4);
-    g.addEdge(0, 1);
-    g.addEdge(0, 2);
-    g.addEdge(1, 2);
-    g.addEdge(2, 0);
-    g.addEdge(2, 3);
-    g.addEdge(3, 3);
-    g.dfs(2);
+    wGraph g(7);
+    g.addNode(0,1,5);
+    g.addNode(0,2,2);
+    g.addNode(0,3,1);
+    g.addNode(2,5,5);
+    g.addNode(2,4,3);
+    g.addNode(1,6,3);
+    g.addNode(0,5,8);
+    Djikstra d(g, 6);
+    d.minimumDistance(0,5);
     return 0;
 }
 

@@ -11,6 +11,13 @@ class Djikstra {
 private:
     minHeapStructure *h;
     wGraph g;
+    long numberOfVertices;
+    long* distances;
+public:
+    explicit Djikstra(wGraph g, long nVert);
+
+    long* minimumDistance(long source, long dest=-1);
+    long minimumTemporaryDist(const bool* visited);
 };
 
 
