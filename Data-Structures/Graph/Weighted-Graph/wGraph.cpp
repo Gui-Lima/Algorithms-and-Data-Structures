@@ -84,4 +84,8 @@ void wGraph::print() {
     }
 }
 
+long **wGraph::getGraph() {
+    return this->g;
+}
+
 

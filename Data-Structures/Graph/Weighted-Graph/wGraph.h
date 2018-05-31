@@ -17,6 +17,8 @@ public:
 
     long getSize();
 
+    long ** getGraph();
+
     explicit wGraph(long tam=0);
 
     void addNode(long i, long j, long weight);

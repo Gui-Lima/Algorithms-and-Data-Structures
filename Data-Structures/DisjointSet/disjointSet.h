@@ -17,6 +17,9 @@ struct Node{
 };
 
 class disjointSet {
+private:
+    map<long, Node*> easyFind;
+
 public:
 
     void makeSet(long data);
@@ -26,8 +29,7 @@ public:
     Node* find(long data);
 
 
-private:
-    map<long, Node*> easyFind;
+
 };
 
 
