@@ -14,7 +14,7 @@ private:
 
     disjointSet d;
     wGraph g;
-    wGraph::edge* e;
+    //wGraph::edge* e;
 
 public:
 
@@ -26,7 +26,7 @@ public:
 
     long mst();
 
-    wGraph::edge* quickSortDiferenciado(long initial, long final,wGraph::edge* arr);
+   // wGraph::edge* quickSortDiferenciado(long initial, long final,wGraph::edge* arr);
 };
 
 

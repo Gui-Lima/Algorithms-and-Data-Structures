@@ -3,7 +3,8 @@
 //
 
 #include "krustal.h"
-
+/*
+ * 
 krustal::krustal(wGraph gk) {
     //creating disjoint set
     g = gk;
@@ -65,3 +66,5 @@ long krustal::mst() {
     return result->soma();
     //result->print();
 }
+
+ */
