@@ -52,7 +52,24 @@ void wGraph::bfs(long startingNode) {
 }
 
 void wGraph::dfs(long startingNode) {
+    bool visited[size];
+    for(int i =0;i<size;i++){
+        visited[i] = false;
+    }
+    dfsUtil(startingNode, visited);
+}
 
+void wGraph::dfsUtil(long node, bool *visited) {
+    visited[node] = true;
+    cout << node << endl;
+
+    //for every adjacent node, call dfsUtil
+    for(int i =0;i<size;i++){
+        if(g[node][i] != 0 && !visited[i]){
+            dfsUtil(i, visited);
+        }
+    }
+    return;
 }
 
 void wGraph::print() {
@@ -66,3 +83,5 @@ void wGraph::print() {
         std::cout << std::endl;
     }
 }
+
+

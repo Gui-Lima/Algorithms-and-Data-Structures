@@ -26,6 +26,7 @@ public:
     void bfs(long startingNode=0);
 
     void dfs(long startingNode=0);
+    void dfsUtil(long node, bool* visited);
 };
 
 
