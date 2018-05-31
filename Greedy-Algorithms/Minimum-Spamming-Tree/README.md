@@ -5,4 +5,12 @@ Minimum Spanning Tree, or MST, is a concept tied to the Graph data structure. A 
 Many graph applications have problems that involve making a MST of that graph.
 
 ## The Algorithm
+There are two main ways of getting a MST: Kruskal and Prim. Each one is explained in it's own folder.
 
+
+## Example:
+### Graph
+![Graph](https://www.geeksforgeeks.org/wp-content/uploads/Fig-0.jpg)
+
+### MST
+![MST](https://www.geeksforgeeks.org/wp-content/uploads/fig8new.jpeg)
