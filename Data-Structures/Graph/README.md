@@ -1,6 +1,9 @@
 # GRAPHS
 A graph is a collection of nodes(x, y , z ,w...) and edges (x,y), (y,z). An edge (x,y) means x is connected with y.
-	
+
+![Graph](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png)
+
+
 ## Properties
 A graph can have some unique things or not. The most common ones are:
 * Directed Graph - Means (x,y) is different from (y,x).
@@ -33,4 +36,7 @@ Topis that make sense when talking about graphs are:
 ## Recommended Reading
 Some books or sites:
 * Geeks for Geeks : https://www.geeksforgeeks.org/graph-and-its-representations/
+
+
+
 
