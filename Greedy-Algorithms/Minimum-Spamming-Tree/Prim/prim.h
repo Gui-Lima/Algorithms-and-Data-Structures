@@ -1,0 +1,14 @@
+//
+// Created by guila on 31/05/18.
+//
+
+#ifndef ALGORITHMS_AND_DATA_STRUCTURES_PRIM_H
+#define ALGORITHMS_AND_DATA_STRUCTURES_PRIM_H
+
+
+class prim {
+
+};
+
+
+#endif //ALGORITHMS_AND_DATA_STRUCTURES_PRIM_H
