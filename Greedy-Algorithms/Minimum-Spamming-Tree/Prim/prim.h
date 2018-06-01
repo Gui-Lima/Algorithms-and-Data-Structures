@@ -13,7 +13,7 @@ private:
     wGraph g;
     disjointSet d;
     wGraph* result;
-    minHeapStructure* mh;
+    minHeapStructure* alredyKnownKeysButNotVisited;
 public:
     prim(wGraph g, long numberOfVertices);
 
