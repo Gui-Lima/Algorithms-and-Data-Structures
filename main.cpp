@@ -5,6 +5,8 @@
 #include "Data-Structures/Graph/Non-Weight-Graph/graph.h"
 #include "Greedy-Algorithms/Djkistra/Djikstra.h"
 #include "Greedy-Algorithms/Minimum-Spamming-Tree/Kruskal/kruskal.h"
+#include "Greedy-Algorithms/Minimum-Spamming-Tree/Prim/prim.h"
+
 using namespace std;
 
 
@@ -27,8 +29,8 @@ int main() {
     g.addNode(5,4,10);
     g.addNode(3,4,9);
 
-    kruskal k(g, 14);
-    k.mst();
+    prim p(g, 14);
+    p.mst();
     return 0;
 }
 
