@@ -14,7 +14,7 @@ We will see some greedy algorithms that indeed find the best solution to their p
 ## Applications
 Greedy Algorithms can be used anywhere, since you have the base to apply it. If you are ok with a suboptimal solution, you can use this heuristic. The one you will see in this folder, though, are used in Graph problems specifically.
 
-## Relationed
+## See also
 * Dijkstra Algorithm
 * Minimum Spanning Tree
 * Huffman Tree
@@ -22,5 +22,3 @@ Greedy Algorithms can be used anywhere, since you have the base to apply it. If 
 
 
 ## Images
-![Greedy Failing](https://en.wikipedia.org/wiki/Greedy_algorithm#/media/File:Greedy_Glouton.svg)
-
