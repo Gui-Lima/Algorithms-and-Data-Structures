@@ -1,0 +1,14 @@
+//
+// Created by guila on 04/06/18.
+//
+
+#ifndef ALGORITHMS_AND_DATA_STRUCTURES_SUBSETSUM_H
+#define ALGORITHMS_AND_DATA_STRUCTURES_SUBSETSUM_H
+
+
+class subsetSum {
+
+};
+
+
+#endif //ALGORITHMS_AND_DATA_STRUCTURES_SUBSETSUM_H
