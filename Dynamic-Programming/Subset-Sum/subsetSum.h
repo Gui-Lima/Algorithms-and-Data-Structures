@@ -7,7 +7,14 @@
 
 
 class subsetSum {
+private:
+    int* numbersSet;
+    int size;
+    int sum;
+public:
+    subsetSum(int* numbersSet, int sum, int size);
 
+    bool sSum();
 };
 
 
