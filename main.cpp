@@ -6,31 +6,20 @@
 #include "Greedy-Algorithms/Djkistra/Djikstra.h"
 #include "Greedy-Algorithms/Minimum-Spamming-Tree/Kruskal/kruskal.h"
 #include "Greedy-Algorithms/Minimum-Spamming-Tree/Prim/prim.h"
+#include "Dynamic-Programming/KnapSack/knapsack.h"
 
 using namespace std;
 
 
 
 int main() {
-    wGraph g(9);
 
-    g.addNode(0,1,4);
-    g.addNode(0,7,8);
-    g.addNode(1,2,8);
-    g.addNode(1,7,11);
-    g.addNode(7,6,1);
-    g.addNode(7,8,7);
-    g.addNode(2,8,2);
-    g.addNode(2,3,7);
-    g.addNode(2,5,4);
-    g.addNode(8,6,6);
-    g.addNode(6,5,2);
-    g.addNode(5,3,14);
-    g.addNode(5,4,10);
-    g.addNode(3,4,9);
+    long v[4] = {4, 7, 15, 23};
+    long w[4] = {1, 2,  5, 7};
+    int value = 10;
+    knapsack a(v,w,10,4);
+    a.simpleKnap();
 
-    prim p(g, 14);
-    p.mst();
     return 0;
 }
 
