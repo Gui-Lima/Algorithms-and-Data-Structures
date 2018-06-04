@@ -11,21 +11,21 @@ So in a example where Weights={1,2,5,7}, Values={4,7,15,23}, and Size=10
 First row would be adding only the 1-weight item. Mind that we only have 1 of each item
 
 
-			0	1	2	3	4	5	6	7	8	9	10
-State 0 (1)         -   0	4	4	4	4	4	4	4	4	4	4
-State 1 (1,2)       -
-State 2 (1,2,5)     -
-State 3 (1,2,5,7)   -
+					0	1	2	3	4	5	6	7	8	9	10
+		State 0 (1)         -   0	4	4	4	4	4	4	4	4	4	4
+		State 1 (1,2)       -
+		State 2 (1,2,5)     -
+		State 3 (1,2,5,7)   -
 
 So in each collumn we put the maximum value we can achieve at that weight in that state.
 The trick starts with the other columns, becouse you will have to check the previous column
 
 
-			0	1	2	3	4	5	6	7	8	9	10
-State 0 (1)         -   0	4	4	4	4	4	4	4	4	4	4
-State 1 (1,2)       -	0	4	7	11	11	11	11	11	11	11	11
-State 2 (1,2,5)     -	0	4	7	11	11	15	19	22	26	26	26
-State 3 (1,2,5,7)   -	0	4	7	11	11	15	19	23	27	30	34
+					0	1	2	3	4	5	6	7	8	9	10
+		State 0 (1)         -   0	4	4	4	4	4	4	4	4	4	4
+		State 1 (1,2)       -	0	4	7	11	11	11	11	11	11	11	11
+		State 2 (1,2,5)     -	0	4	7	11	11	15	19	22	26	26	26
+		State 3 (1,2,5,7)   -	0	4	7	11	11	15	19	23	27	30	34
 
 At each iteartion, we ask if the new item fits in the bag, if not, then just copy to value it had before in that cell, if it fits, we have to check if we add it, if the total value on the bag will improve, by looking at the solved problem one row above.
 
