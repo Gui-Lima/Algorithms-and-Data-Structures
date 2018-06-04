@@ -37,8 +37,8 @@ add_executable(Algorithms_and_Data_Structures
         utility.h
         Dynamic-Programming/Coin-Change/coinChange.cpp
         Dynamic-Programming/Coin-Change/coinChange.h
-        Dynamic-Programming/Longest-Common-Subsequence/stringProblems.cpp
-        Dynamic-Programming/Longest-Common-Subsequence/stringProblems.h
+        Dynamic-Programming/Longest-Common-Subsequence/longestCommonSubsequence.cpp
+        Dynamic-Programming/Longest-Common-Subsequence/longestCommonSubsequence.h
         Backtrack/NQueen/nQueens.cpp
         Backtrack/NQueen/nQueens.h
         Backtrack/5-digit-division/division.cpp

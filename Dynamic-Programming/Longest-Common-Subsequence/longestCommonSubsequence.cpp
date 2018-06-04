@@ -2,14 +2,14 @@
 // Created by guila on 18/05/18.
 //
 
-#include "stringProblems.h"
+#include "longestCommonSubsequence.h"
 
-stringProblems::stringProblems(string x, string y) {
+longestCommonSubsequence::longestCommonSubsequence(string x, string y) {
     this->a = x;
     this->b = y;
 }
 
-long stringProblems::longestCommonSubSeq() {
+long longestCommonSubsequence::longestCommonSubSeq() {
     long m = a.length();
     long n = b.length();
     long ab[m + 1][n + 1];

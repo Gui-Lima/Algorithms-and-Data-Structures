@@ -8,12 +8,12 @@
 #include "string"
 using namespace std;
 
-class stringProblems {
+class longestCommonSubsequence {
 private:
     string a;
     string b;
 public:
-    stringProblems(string x, string y);
+    longestCommonSubsequence(string x, string y);
     long longestCommonSubSeq();
 };
 
