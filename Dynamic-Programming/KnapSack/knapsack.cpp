@@ -6,28 +6,27 @@
 
 utility a;
 
-knapsack::knapsack(long* val,long valSize, long* wg, long sackP){
+knapsack::knapsack(long* val, long* wg, long sackP, long valSize){
     values = val;
-    pesos = wg;
-    sackPeso = sackP;
+    weights = wg;
+    sackWeight = sackP;
     size = valSize;
 }
 
 long knapsack::simpleKnap() {
-    long n = size;
-    long result[n+1][sackPeso+1];
-    for (long i = 0; i <= n; i++)
+    long result[size+1][sackWeight+1];
+    for (long i = 0; i <= size; i++)
     {
-        for (long w = 0; w <= sackPeso; w++)
+            for (long w = 0; w <= sackWeight; w++)
         {
             if (i==0 || w==0)
                 result[i][w] = 0;
-            else if (pesos[i-1] <= w)
-                result[i][w] = a.max(values[i-1] + result[i-1][w-pesos[i-1]],  result[i-1][w]);
+            else if (weights[i-1] <= w)
+                result[i][w] = a.max(values[i-1] + result[i-1][w-weights[i-1]],  result[i-1][w]);
             else
                 result[i][w] = result[i-1][w];
         }
     }
-    return result[n][sackPeso];
+    return result[size][sackWeight];
 }
 

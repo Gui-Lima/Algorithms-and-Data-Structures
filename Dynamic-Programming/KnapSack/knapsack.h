@@ -10,12 +10,12 @@
 class knapsack {
 private:
     long* values;
-    long * pesos;
-    long sackPeso;
+    long * weights;
+    long sackWeight;
     long size;
 
 public:
-    knapsack(long* val, long valSize, long* wg, long sackP);
+    knapsack(long* sackValues, long* weightValues, long sackWeight, long itensInTheSack);
 
     long simpleKnap();
 
