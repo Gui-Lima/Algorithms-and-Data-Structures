@@ -13,10 +13,15 @@ private:
 
 public:
     nQueens(int size);
+    void print();
 
-    void solve1QueenPlaced(int i, int j);
+    bool solveQueen(int col =0);
+    bool solveAllQueens(int col=0);
+    bool isSafe(int row, int col);
+
+    bool solveOneQueenPlaced(int i, int j);
     //this calls
-    bool sqpUtil(int col, int i, int j, int& contador, int* linha);
+    bool solveOneQueenPlacedUtil(int col, int i, int j, int &contador, int *linha);
     bool isSafe(int row, int col, int* sol);
 };
 
