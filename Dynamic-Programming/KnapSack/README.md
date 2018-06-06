@@ -1,4 +1,4 @@
-#KnapSack Problem
+# KnapSack Problem
 The knapsack problem is a famous Computer Science problem that has many variations, here, we do the binary 0-1 and a alternate version with aggregated values.
 
 ## What is does
@@ -30,7 +30,7 @@ The trick starts with the other columns, becouse you will have to check the prev
 At each iteartion, we ask if the new item fits in the bag, if not, then just copy to value it had before in that cell, if it fits, we have to check if we add it, if the total value on the bag will improve, by looking at the solved problem one row above.
 
 ## Analysis
-This approach solves the problem in O(numberOfItens * Weight of bag) time complexity, and memory cost of constructing the matrix.
+This approach solves the problem in O(numberOfItens * Weight of bag) time complexity, and memory cost of constructing the matrix. This is actually a Pseudo-Polynominal time, because W is the number weight of bag, while in this notations we use length of the input, not value. So it's actually O(n*2^m). This problem is actually np-hard.
 
 ## The code
 One bad things about array pointes in C++ is you can't get the size of that array. So i have to pass 4 parameters, one being the number of itens in the bag, but normally, you can get that from the weight ou values array. Beside that, very simple algorithm to understand if you look. 

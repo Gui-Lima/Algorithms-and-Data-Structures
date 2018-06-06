@@ -42,4 +42,13 @@ add_executable(Algorithms_and_Data_Structures
         Backtrack/NQueen/nQueens.cpp
         Backtrack/NQueen/nQueens.h
         Backtrack/5-digit-division/division.cpp
-        Backtrack/5-digit-division/division.h Greedy-Algorithms/Djkistra/Djikstra.cpp Greedy-Algorithms/Djkistra/Djikstra.h Greedy-Algorithms/Minimum-Spamming-Tree/Prim/prim.cpp Greedy-Algorithms/Minimum-Spamming-Tree/Prim/prim.h Dynamic-Programming/Subset-Sum/subsetSum.cpp Dynamic-Programming/Subset-Sum/subsetSum.h)
+        Backtrack/5-digit-division/division.h
+        Greedy-Algorithms/Djkistra/Djikstra.cpp
+        Greedy-Algorithms/Djkistra/Djikstra.h
+        Greedy-Algorithms/Minimum-Spamming-Tree/Prim/prim.cpp
+        Greedy-Algorithms/Minimum-Spamming-Tree/Prim/prim.h
+        Dynamic-Programming/Subset-Sum/subsetSum.cpp
+        Dynamic-Programming/Subset-Sum/subsetSum.h
+        "Backtrack/Subset Sum/SubsetSum.cpp"
+        "Backtrack/Subset Sum/SubsetSum.h"
+        "Approximation-Algorithms/Bin-Packing/binPacking.cpp" "Approximation-Algorithms/Bin-Packing/binPacking.h")

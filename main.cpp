@@ -1,18 +1,18 @@
 #include "iostream"
 //write here what files fo include
-#include "Dynamic-Programming/Longest-Common-Subsequence/longestCommonSubsequence.h"
-#include "Dynamic-Programming/Subset-Sum/subsetSum.h"
+#include "Approximation-Algorithms/Bin-Packing/binPacking.h"
+
 
 using namespace std;
 
 
 
 int main() {
-    int a[6] = {3,34,4,12,5,2};
-    int n=6;
-    int sum =9;
-    subsetSum ss(a,sum,n);
-    cout << ss.sSum();
+    int weight[] = {2, 5, 4, 7, 1, 3, 8};
+    int c = 10;
+    int n = sizeof(weight) / sizeof(weight[0]);
+    binPacking bp(weight,10,n);
+    cout << bp.firstFit();
     return 0;
 }
 

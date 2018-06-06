@@ -56,7 +56,6 @@ long coinChange::minCoinValue() {
         }
     }
     long aux = valor;
-    //procurar o valor que vamos entregar, pois ele pode ser acima do valor que vamos pagar
     while(needed[aux] == 0){
         aux++;
     }
