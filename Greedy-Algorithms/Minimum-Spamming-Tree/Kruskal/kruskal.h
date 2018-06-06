@@ -29,7 +29,7 @@ public:
     wGraph* mst();
 
     edge* sortEdges(long initial, long final, edge* result);
-   // wGraph::edge* quickSortDiferenciado(long initial, long final,wGraph::edge* arr);
+
 };
 
 

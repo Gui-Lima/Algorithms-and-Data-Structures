@@ -25,8 +25,6 @@ public:
     void dfs(int startingNode);
     void dfsUtil(int startingNode, bool* visited);
 
-    bool noMoreAdjVisitors(int i, bool* visited);
-
     bool isColorable(int nColors);
     bool isColorableUtil(int nColors, int* colors, int currentNode);
     bool has(int i, int j);
