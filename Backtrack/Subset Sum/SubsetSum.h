@@ -15,6 +15,7 @@ public:
     SubsetSum(int* numberSet, int requiredSum, int size);
 
     bool solveSum(int start=0);
+    bool solveSumUtil(std::vector<int> set, int statePointer, int sumAtual);
 
 };
 
