@@ -51,4 +51,4 @@ add_executable(Algorithms_and_Data_Structures
         Dynamic-Programming/Subset-Sum/subsetSum.h
         "Backtrack/Subset Sum/SubsetSum.cpp"
         "Backtrack/Subset Sum/SubsetSum.h"
-        "Approximation-Algorithms/Bin-Packing/binPacking.cpp" "Approximation-Algorithms/Bin-Packing/binPacking.h" "Approximation-Algorithms/Vertex Cover/vertexCover.cpp" "Approximation-Algorithms/Vertex Cover/vertexCover.h")
+        "Approximation-Algorithms/Bin-Packing/binPacking.cpp" "Approximation-Algorithms/Bin-Packing/binPacking.h" "Approximation-Algorithms/Vertex Cover/vertexCover.cpp" "Approximation-Algorithms/Vertex Cover/vertexCover.h" Branch-and-Bound-Algorithms/KnapSack/bbKnapSack.cpp Branch-and-Bound-Algorithms/KnapSack/bbKnapSack.h)
