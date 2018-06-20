@@ -35,6 +35,7 @@ public:
             atual->direita = NULL;
             atual->altura = 0;
             raiz = atual;
+            return atual;
         }
        else if(atual == NULL){
             atual = new avlNode();
@@ -42,6 +43,7 @@ public:
             atual->esquerda = NULL;
             atual->direita = NULL;
             atual->altura = 0;
+            return atual;
         }
 
         else if(atual->key > key){
