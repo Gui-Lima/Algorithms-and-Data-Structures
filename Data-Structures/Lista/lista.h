@@ -20,86 +20,19 @@ private :
     no* head;
     no* tail;
 public:
-    lista(){
-        head = NULL;
-        tail = NULL;
-    }
-    void push(int valor){
-        no* tempo = new no;
-        tempo->key = valor;
-        tempo->next = NULL  ;
-        if(head == NULL && tail==NULL){
-            head = tempo;
-            tail = tempo;
-        }
-        else{
-            tail->next = tempo;
-            tail = tail->next;
-        }
-    }
+    lista();
+    void push(int valor);
 
-    void printaLista(){
-        no* temp = new no;
-        temp = head;
-        while(temp != NULL) {
-            cout << temp->key << '\n';
-            temp = temp->next;
-        }
-    }
+    void printaLista();
 
-    int dequeue(){
-        if(head == NULL){
-            return 0;
-        }
-        no *temp = new no();
-        temp = head;
-        head = head->next;
-        int r = temp->key;
-        delete(temp);
-        return(r);
-    }
+    int dequeue();
 
-    void pop(){
-        no* current = new no();
-        no* previous = new no();
-        current = head;
-        while(current->next != NULL){
-            previous = current;
-            current = current->next;
-        }
-        tail = previous;
-        previous->next = NULL;
-        delete current;
-    }
+    void pop();
 
-    void add(int valor){
-        no* temp = new no();
-        temp->next = NULL;
-        temp->key = valor;
-        if(head == NULL){
-            head = temp;
-            tail = temp;
-        }
-        else {
-            temp->next = head;
-            head = temp;
-        }
-    }
+    void add(int valor);
 
-    bool empty(){
-        if(head == NULL){
-            return true;
-        }
-        else{
-            return false;
-        }
-    }
-    int retornaHead(){
-        if(head == NULL){
-            return 0;
-        }
-        return head->key;
-    }
+    bool empty();
+    int retornaHead();
 };
 
 #endif //GITREPO_LISTA_H
