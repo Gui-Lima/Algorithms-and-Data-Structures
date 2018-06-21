@@ -13,7 +13,7 @@ for j in array.length
 ```
 
 
-then we call the function again to the left side and the right side.
+then we call the function again to the left side and the right side. After the first callt the i will be initial-1.
 
 
 ## The code
