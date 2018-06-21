@@ -9,7 +9,7 @@ So, everything is as in a binary search tree, except that we keep track of those
 ![right_rotation](https://www.tutorialspoint.com/data_structures_algorithms/images/avl_right_rotation.jpg)
 *	Left Rotation - When the balance is 2, and the node was inserted on the right sub-three of the right sub-three
 ![left_rotation](https://www.tutorialspoint.com/data_structures_algorithms/images/avl_left_rotation.jpg)
-*	Right Left Rotation - When the balance is -2, and the node was inserted on the left sub-three of the right sub-three
+*	Right Left Rotation - When the balance is 2, and the node was inserted on the left sub-three of the right sub-three
 *	Left Right Rotation - When the balance is -2, and the node was inserted on the right sub-three of the left sub-three
 
 The names are categorized on the way the rotation is going, so in Left rotation, since we add to much elements on the right side, we have to rotate to the left to make it balanced, hence the name.
