@@ -3,6 +3,7 @@
 #include "Approximation-Algorithms/Bin-Packing/binPacking.h"
 #include "Approximation-Algorithms/Vertex Cover/vertexCover.h"
 #include "Backtrack/Subset Sum/SubsetSum.h"
+#include "Data-Structures/Graph/Weighted-Graph/wGraph.h"
 
 
 using namespace std;
@@ -10,10 +11,12 @@ using namespace std;
 
 
 int main() {
-    int numberSet[4] = {1,3,5,10};
-    int sum = 13;
-    SubsetSum ss(numberSet, sum, 4);
-    ss.solveSum();
+    wGraph g(4);
+    g.addNode(0, 1, 2);
+    g.addNode(1, 2, 2);
+    g.addNode(0, 2, 3);
+    g.bfs(0);
+
 
     return 0;
 }

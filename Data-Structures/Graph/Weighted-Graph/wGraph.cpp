@@ -46,6 +46,7 @@ void wGraph::bfs(long startingNode) {
         for(int i =0;i<size;i++){
             if(g[node][i] > 0 && !visited[i]){
                 nodesQueue.push_back(i);
+                visited[i] = 1;
             }
         }
     }
